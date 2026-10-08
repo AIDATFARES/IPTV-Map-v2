@@ -3,7 +3,7 @@
 import { siteConfig } from '@/data/siteConfig';
 
 export default function WhatsAppButton() {
-  const whatsappUrl = `${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello VixeoTV, I need help.')}`;
+  const whatsappUrl = `${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello IPTV Map, I need help.')}`;
 
   return (
     <aside
@@ -42,7 +42,7 @@ export default function WhatsAppButton() {
           target="_blank"
           rel="noopener noreferrer"
           className="relative w-14 h-14 sm:w-[58px] sm:h-[58px] rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white flex items-center justify-center shadow-[0_6px_20px_rgba(37,211,102,0.4)] hover:shadow-[0_8px_25px_rgba(37,211,102,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-[#25D366]/30"
-          aria-label="Chat with VixeoTV on WhatsApp"
+          aria-label="Chat with IPTV Map on WhatsApp"
         >
           {/* Official WhatsApp Logo SVG */}
           <svg

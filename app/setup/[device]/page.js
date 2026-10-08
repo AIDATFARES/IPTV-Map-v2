@@ -140,7 +140,7 @@ export default async function DeviceSetupPage({ params }) {
             <div className="mt-5 pt-4 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-brand-text-muted">
               <span>Don't have an active subscription yet?</span>
               <Link href="/pricing" className="text-brand-primary hover:underline font-bold">
-                View VixeoTV IPTV Plans →
+                View IPTV Map Plans →
               </Link>
             </div>
           </div>
@@ -223,7 +223,7 @@ export default async function DeviceSetupPage({ params }) {
             </div>
             <a
               href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent(
-                `Hello VixeoTV, I need setup help with my ${guide.deviceName}.`
+                `Hello IPTV Map, I need setup help with my ${guide.deviceName}.`
               )}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -248,7 +248,7 @@ export default async function DeviceSetupPage({ params }) {
       </section>
 
       <CTASection
-        title={`Ready to Stream VixeoTV IPTV on Your ${guide.deviceName}?`}
+        title={`Ready to Stream IPTV Map on Your ${guide.deviceName}?`}
         subtitle={
           <>
             <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe now</Link>, get instant account activation, and enjoy 4K Ultra HD <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live TV and sports</Link>.

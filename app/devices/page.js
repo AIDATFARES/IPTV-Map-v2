@@ -8,8 +8,8 @@ import { ArrowRight } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — Supported Devices | Firestick, Smart TVs, iOS & PC',
-  description: 'Stream VixeoTV IPTV on Amazon Firestick, Android TV, Apple TV, Samsung & LG Smart TVs, PC, and MAG boxes. Easy 5-minute setup on any screen in your home.',
+  title: 'IPTV Map — Supported Devices | Firestick, Smart TVs, iOS & PC',
+  description: 'Stream IPTV Map on Amazon Firestick, Android TV, Apple TV, Samsung & LG Smart TVs, PC, and MAG boxes. Easy 5-minute setup on any screen in your home.',
   alternates: {
     canonical: `${siteConfig.domain}/devices`,
   },
@@ -42,10 +42,10 @@ export default function DevicesPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="Universal IPTV Multi-Device Support"
-        title="Watch VixeoTV IPTV on Every Screen in"
+        badge="IPTV MAP DEVICE COMPATIBILITY"
+        title="Stream IPTV Map on Every Screen in"
         titleAccent="Your Home"
-        description="Whether you are watching the championship match on your living room 4K Smart TV or streaming a series on your mobile phone, VixeoTV IPTV provides native, high-performance compatibility with all modern streaming devices."
+        description="Whether you are streaming live sports on your living room 4K Smart TV or catching up on cinema from a tablet or smartphone, IPTV Map delivers native, buffer-free playback across all major streaming devices with zero hardware locks."
         breadcrumbs={breadcrumbs}
       />
 
@@ -56,13 +56,13 @@ export default function DevicesPage() {
         <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
           <div className="text-center max-w-3xl mx-auto mb-14">
             <span className="text-xs font-bold uppercase tracking-wider text-brand-primary font-heading">
-              Verified IPTV Installation Guides
+              VERIFIED STEP-BY-STEP GUIDES
             </span>
             <h2 className="text-3xl sm:text-4xl font-black font-heading text-white mt-1 mb-3">
-              Ready to Install VixeoTV IPTV on Your Device?
+              Ready to Install IPTV Map on Your Streaming Device?
             </h2>
             <p className="text-sm text-brand-text-secondary">
-              Follow our concise, verified <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV installation tutorials</Link> with tested media player recommendations for each platform, or view our <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription plans</Link> to get your activation credentials:
+              Follow our tested <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV setup guides</Link> with verified player recommendations for Firestick, Android TV, Apple TV, Smart TVs, and PC, or choose your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plan</Link> to receive your login credentials in minutes:
             </p>
           </div>
 
@@ -71,7 +71,7 @@ export default function DevicesPage() {
       </section>
 
       <CTASection
-        title="Start Streaming With VixeoTV IPTV Today"
+        title="Start Streaming With IPTV Map Today"
         subtitle={
           <>
             <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe in seconds</Link>, receive your credentials immediately, and follow our easy visual <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup guides</Link> to watch on your favorite screen.

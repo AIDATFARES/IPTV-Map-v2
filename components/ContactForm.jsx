@@ -21,7 +21,7 @@ export default function ContactForm() {
 
     // Open WhatsApp with populated inquiry
     const encodedMsg = encodeURIComponent(
-      `Hello VixeoTV Team,\n\nName: ${formData.name}\nEmail: ${formData.email}\nDevice: ${formData.device}\nTopic: ${formData.subject}\nMessage: ${formData.message}`
+      `Hello IPTV Map Team,\n\nName: ${formData.name}\nEmail: ${formData.email}\nDevice: ${formData.device}\nTopic: ${formData.subject}\nMessage: ${formData.message}`
     );
     window.open(`${siteConfig.whatsappUrl}?text=${encodedMsg}`, '_blank');
   };
@@ -36,10 +36,10 @@ export default function ContactForm() {
               Fastest Response Channel
             </span>
             <h2 className="text-2xl font-bold font-heading text-white mt-1 mb-2">
-              Direct WhatsApp IPTV Desk
+              Direct WhatsApp IPTV Helpdesk
             </h2>
             <p className="text-xs sm:text-sm text-brand-text-secondary leading-relaxed">
-              For immediate assistance regarding VixeoTV IPTV <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup</Link>, credentials delivery, or <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription inquiries</Link>, reach our team directly on WhatsApp.
+              For immediate assistance regarding IPTV Map <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup</Link>, instant credentials activation, or <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription plans</Link>, connect directly with our streaming technicians on WhatsApp.
             </p>
           </div>
 
@@ -88,7 +88,7 @@ export default function ContactForm() {
         <div className="rounded-2xl bg-brand-bg-secondary/60 p-6 border border-white/5 flex items-start gap-3 text-xs text-slate-300">
           <Shield className="w-4 h-4 text-brand-primary flex-shrink-0 mt-0.5" />
           <span>
-            Security Reminder: VixeoTV support agents will never ask for your confidential banking PIN or payment card codes.
+            Security Reminder: IPTV Map support agents will never ask for your confidential banking PIN or payment card codes.
           </span>
         </div>
       </div>
@@ -97,10 +97,10 @@ export default function ContactForm() {
       <div className="lg:col-span-7">
         <div className="rounded-3xl bg-brand-bg-secondary p-8 sm:p-10 border border-white/10 shadow-2xl">
           <h3 className="text-2xl font-bold font-heading text-white mb-2">
-            Contact VixeoTV IPTV Support
+            Send an Inquiry to IPTV Map Support
           </h3>
           <p className="text-xs sm:text-sm text-brand-text-secondary mb-6">
-            Fill out the form below and our technical support team will assist you with your IPTV streaming setup. You can also explore our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup guides</Link> or <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">FAQ database</Link>.
+            Fill out the form below and our technical support specialists will assist you with your IPTV streaming setup. You can also explore our step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup guides</Link> or <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">FAQ database</Link>.
           </p>
 
           {isSubmitted ? (

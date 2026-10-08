@@ -4,7 +4,7 @@ export const channelCategories = [
     name: 'Live Sports & Pay-Per-View',
     slug: 'sports',
     icon: 'Trophy',
-    description: 'Premier international tournaments, live football, motorsports, basketball, combat events, and major worldwide championships in 60FPS HD & 4K on VixeoTV IPTV.',
+    description: 'Premier international tournaments, live football, motorsports, basketball, combat events, and major worldwide championships in 60FPS HD & 4K on IPTV Map.',
     sampleChannels: [
       'Sky Sports Main Event UHD',
       'TNT Sports 1 / 2 / 3 / 4 4K',
@@ -143,7 +143,9 @@ export const playerScreenshots = [
     category: 'movies',
     categoryLabel: '4K Movies & VOD',
     badge: '4K Ultra HD',
-    image: '/images/player-gallery/player-screen-1.webp',
+    image: '/images/player-gallery/iptvmap-player-vod-movies.webp',
+    alt: 'IPTV Map 4K VOD and Movies Library Player Interface with IMDB Ratings',
+    imageTitle: 'IPTV Map VOD Movies Interface',
     description: 'Over 2,480+ Netflix and 4K cinema releases categorized with IMDB ratings, posters, and instant streaming.'
   },
   {
@@ -152,7 +154,9 @@ export const playerScreenshots = [
     category: 'sports',
     categoryLabel: 'Live Sports 60FPS',
     badge: 'Sky Sports Football',
-    image: '/images/player-gallery/player-screen-3.webp',
+    image: '/images/player-gallery/iptvmap-player-premier-league.webp',
+    alt: 'IPTV Map Live Premier League & Sky Sports Football 4K 60FPS Player Interface',
+    imageTitle: 'IPTV Map Premier League Live Sports',
     description: 'Ultra-low latency live sports broadcast in Full HD and 4K 60FPS: Premier League, EFL Cup, and Champions League.'
   },
   {
@@ -161,7 +165,9 @@ export const playerScreenshots = [
     category: 'sports',
     categoryLabel: 'Live Sports 60FPS',
     badge: 'NBA League Pass',
-    image: '/images/player-gallery/player-screen-8.webp',
+    image: '/images/player-gallery/iptvmap-player-nba-pass.webp',
+    alt: 'IPTV Map NBA League Pass & Live Basketball Court Interface with Live Scoreboard',
+    imageTitle: 'IPTV Map NBA League Pass Stream',
     description: 'Every NBA game live with home and away audio feeds, live scoreboard data, and zero stream buffering.'
   },
   {
@@ -170,7 +176,9 @@ export const playerScreenshots = [
     category: 'live-tv',
     categoryLabel: 'Live TV & News',
     badge: 'CNN FHD Live',
-    image: '/images/player-gallery/player-screen-10.webp',
+    image: '/images/player-gallery/iptvmap-player-cnn-news.webp',
+    alt: 'IPTV Map CNN FHD & 24/7 Global Breaking News Networks Player Interface',
+    imageTitle: 'IPTV Map CNN Breaking News Live',
     description: '24/7 breaking news feeds in crystal-clear Full HD with 7-day electronic program guide schedules.'
   },
   {
@@ -179,7 +187,9 @@ export const playerScreenshots = [
     category: 'movies',
     categoryLabel: '4K Movies & VOD',
     badge: '4K Spider-Man',
-    image: '/images/player-gallery/player-screen-12.webp',
+    image: '/images/player-gallery/iptvmap-player-spider-cinema.webp',
+    alt: 'IPTV Map 4K Cinema Blockbusters On-Demand with Multi-Audio Tracks and Subtitles',
+    imageTitle: 'IPTV Map 4K Blockbuster Movies Playback',
     description: 'Full player controls, instant timeline scrubbing, multi-audio tracks, and high bitrate 4K video.'
   },
   {
@@ -188,7 +198,9 @@ export const playerScreenshots = [
     category: 'sports',
     categoryLabel: 'Live Sports 60FPS',
     badge: 'NFL Package',
-    image: '/images/player-gallery/player-screen-6.webp',
+    image: '/images/player-gallery/iptvmap-player-nfl-sunday.webp',
+    alt: 'IPTV Map NFL Sunday Ticket & RedZone Sports Streaming Interface with Zero Lag',
+    imageTitle: 'IPTV Map NFL Sunday Ticket Broadcast',
     description: 'Comprehensive American Football packages with game replays, NFL RedZone, and dedicated franchise channels.'
   },
   {
@@ -197,7 +209,9 @@ export const playerScreenshots = [
     category: 'live-tv',
     categoryLabel: 'Live TV & News',
     badge: 'NBC Network',
-    image: '/images/player-gallery/player-screen-5.webp',
+    image: '/images/player-gallery/iptvmap-player-nbc-affiliates.webp',
+    alt: 'IPTV Map NBC Network & Regional US Affiliates Channel Zapping Interface',
+    imageTitle: 'IPTV Map NBC Regional Affiliates',
     description: 'Over 240+ regional NBC, CBS, ABC, and FOX stations with instant channel zapping and EPG info.'
   },
   {
@@ -206,7 +220,9 @@ export const playerScreenshots = [
     category: 'sports',
     categoryLabel: 'Live Sports 60FPS',
     badge: 'MLB Package',
-    image: '/images/player-gallery/player-screen-7.webp',
+    image: '/images/player-gallery/iptvmap-player-mlb-baseball.webp',
+    alt: 'IPTV Map Major League Baseball MLB Package Live 60FPS High Frame Rate Stream',
+    imageTitle: 'IPTV Map MLB Baseball Season Pass',
     description: 'Complete MLB baseball season coverage with high-frame-rate action tracking and crystal-clear picture.'
   },
   {
@@ -215,7 +231,9 @@ export const playerScreenshots = [
     category: 'movies',
     categoryLabel: '4K Movies & VOD',
     badge: 'VOD Player',
-    image: '/images/player-gallery/player-screen-11.webp',
+    image: '/images/player-gallery/iptvmap-player-thriller-cinema.webp',
+    alt: 'IPTV Map Action & Thriller Cinema Playback Controls and Instant Resume',
+    imageTitle: 'IPTV Map Thriller Cinema VOD',
     description: 'Extensive on-demand thriller and action library featuring smooth playback and resume points.'
   },
   {
@@ -224,7 +242,9 @@ export const playerScreenshots = [
     category: 'live-tv',
     categoryLabel: 'Live TV & News',
     badge: 'CBS Network',
-    image: '/images/player-gallery/player-screen-4.webp',
+    image: '/images/player-gallery/iptvmap-player-cbs-broadcast.webp',
+    alt: 'IPTV Map CBS News & Prime Time Broadcasts Interface with EPG Schedule',
+    imageTitle: 'IPTV Map CBS News Broadcast Feed',
     description: 'Regional US news stations and prime-time drama series broadcast live without geo-restrictions.'
   },
   {
@@ -233,7 +253,9 @@ export const playerScreenshots = [
     category: 'live-tv',
     categoryLabel: 'Live TV & News',
     badge: 'Raw 60FPS',
-    image: '/images/player-gallery/player-screen-2.webp',
+    image: '/images/player-gallery/iptvmap-player-raw-60fps.webp',
+    alt: 'IPTV Map Raw Uncompressed 60FPS Live US TV Feeds on OLED Display',
+    imageTitle: 'IPTV Map Raw 60FPS Broadcast',
     description: 'Uncompressed raw video streams providing the highest available bitrates for OLED and large 4K TVs.'
   },
   {
@@ -242,7 +264,9 @@ export const playerScreenshots = [
     category: 'movies',
     categoryLabel: '4K Movies & VOD',
     badge: 'Apple+ Kids',
-    image: '/images/player-gallery/player-screen-13.webp',
+    image: '/images/player-gallery/iptvmap-player-family-animation.webp',
+    alt: 'IPTV Map Family & Animated Movies On-Demand Catalog for Kids and Families',
+    imageTitle: 'IPTV Map Family Animated Movies',
     description: 'Family-friendly animated features, cartoons, and child-safe entertainment with crystal audio.'
   },
   {
@@ -251,7 +275,9 @@ export const playerScreenshots = [
     category: 'movies',
     categoryLabel: '4K Movies & VOD',
     badge: 'New 2026',
-    image: '/images/player-gallery/player-screen-14.webp',
+    image: '/images/player-gallery/iptvmap-player-trending-2026.webp',
+    alt: 'IPTV Map 2026 Trending Cinema Releases and Box Office Premieres in 4K',
+    imageTitle: 'IPTV Map 2026 Trending Cinema',
     description: 'Daily-updated catalog of latest theatre and streaming platform releases in Ultra High Definition.'
   },
   {
@@ -260,7 +286,9 @@ export const playerScreenshots = [
     category: 'live-tv',
     categoryLabel: 'Live TV & News',
     badge: 'US Entertainment',
-    image: '/images/player-gallery/player-screen-9.webp',
+    image: '/images/player-gallery/iptvmap-player-us-entertainment.webp',
+    alt: 'IPTV Map Prime Time US Entertainment & Drama Channels Interface in 1080p Full HD',
+    imageTitle: 'IPTV Map Prime Time Entertainment',
     description: 'Live US news, prime time evening series, and entertainment channels in 1080p Full HD.'
   }
 ];

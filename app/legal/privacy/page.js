@@ -66,7 +66,7 @@ export default function PrivacyPage() {
       <PageHeader
         badge="Legal &amp; Compliance"
         title={policy.title}
-        description={`Last updated: ${policy.lastUpdated}. Learn how VixeoTV safeguards customer data.`}
+        description={`Last updated: ${policy.lastUpdated}. Learn how IPTV Map safeguards customer data.`}
         breadcrumbs={breadcrumbs}
       />
 

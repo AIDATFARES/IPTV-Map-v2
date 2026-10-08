@@ -9,8 +9,8 @@ import { siteConfig } from '@/data/siteConfig';
 import { pricingPlans } from '@/data/pricing';
 
 export const metadata = {
-  title: 'VixeoTV — IPTV Subscription Plans & Pricing | 4K Ultra HD',
-  description: 'Explore flexible VixeoTV IPTV subscription plans from 1 to 24 months. Enjoy 4K Ultra HD streams, Anti-Freeze v2.0, instant activation, and 24/7 WhatsApp help.',
+  title: 'IPTV Map — Premium IPTV Subscription Plans & Pricing | 4K UHD',
+  description: 'Explore flexible IPTV Map subscription plans from 1 to 24 months. Enjoy 50,000+ 4K Ultra HD streams, 200,000+ VOD titles, Anti-Freeze v2.0, instant activation, and 24/7 WhatsApp support.',
   alternates: {
     canonical: `${siteConfig.domain}/pricing`,
   },
@@ -22,15 +22,30 @@ export default function PricingPage() {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'VixeoTV Premium IPTV Subscription',
+    name: 'IPTV Map Premium IPTV Subscription',
     description: 'High-speed buffer-free IPTV subscription with 4K streams, anti-freeze technology, and multi-device compatibility.',
     image: [
-      `${siteConfig.domain}/images/hero-couple-couch.jpg`,
-      `${siteConfig.domain}/images/hero-tv-show.jpg`,
-      `${siteConfig.domain}/images/hero-sports.jpg`
+      {
+        '@type': 'ImageObject',
+        url: `${siteConfig.domain}/images/iptvmap-hero-home-streaming.jpg`,
+        name: 'IPTV Map 4K Streaming Subscription Experience',
+        caption: 'IPTV Map living room 4K Ultra HD streaming subscription with Anti-Freeze technology'
+      },
+      {
+        '@type': 'ImageObject',
+        url: `${siteConfig.domain}/images/iptvmap-hero-tv-entertainment.jpg`,
+        name: 'IPTV Map 4K Smart TV Action Cinema',
+        caption: 'IPTV Map 4K UHD live television and action movies on smart TV'
+      },
+      {
+        '@type': 'ImageObject',
+        url: `${siteConfig.domain}/images/iptvmap-sports-premier-league.jpg`,
+        name: 'IPTV Map Premier League 4K 60FPS Sports Feed',
+        caption: 'IPTV Map ultra-smooth 60FPS live sports streaming'
+      }
     ],
-    sku: 'VIXEOTV-IPTV-SUB',
-    mpn: 'VIXEOTV-SUB-4K',
+    sku: 'IPTVMAP-SUB',
+    mpn: 'IPTVMAP-SUB-4K',
     brand: {
       '@type': 'Brand',
       name: siteConfig.name,
@@ -87,10 +102,10 @@ export default function PricingPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="Transparent VixeoTV IPTV Pricing"
-        title="Flexible VixeoTV IPTV Subscription Plans for"
-        titleAccent="Every Screen"
-        description="Choose the ideal VixeoTV IPTV subscription for your household. Every plan includes our full 4K and Full HD channel lineup, international sports, electronic program guide (EPG), Anti-Freeze technology, and dedicated 24/7 WhatsApp customer care."
+        badge="IPTV MAP SUBSCRIPTION TIERS"
+        title="Flexible IPTV Map Subscription Plans for"
+        titleAccent="4K Live Streaming"
+        description="Choose the ideal IPTV Map subscription plan for your home. Every package includes over 50,000 live IPTV channels, 60FPS sports, 200,000+ VOD movies, interactive EPG schedules, Anti-Freeze v2.0 technology, and 24/7 dedicated WhatsApp customer care."
         breadcrumbs={breadcrumbs}
       />
 
@@ -105,10 +120,10 @@ export default function PricingPage() {
                 Wholesale Opportunity
               </span>
               <h3 className="text-xl sm:text-2xl font-black font-heading text-white">
-                Looking to Start Your Own IPTV Business?
+                Launch Your Own IPTV Business with IPTV Map Reseller Credits
               </h3>
               <p className="text-xs sm:text-sm text-brand-text-secondary mt-1 max-w-xl">
-                We provide dedicated Xtream Codes management panels with credits starting from $399 (120 to 600 credits), sub-reseller tools, and credits that never expire.
+                Access our enterprise Xtream Codes reseller panel with credit packages from $399 (120 to 600 credits), sub-reseller issuance privileges, free trial creation, and credits that never expire.
               </p>
             </div>
             <Link
@@ -126,10 +141,10 @@ export default function PricingPage() {
       <section className="py-16 bg-brand-bg-secondary border-t border-white/5">
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl text-center">
           <h2 className="text-2xl sm:text-3xl font-black font-heading text-white mb-3">
-            Ready to Set Up VixeoTV IPTV on Your Device?
+            Ready to Install IPTV Map on Your Streaming Device?
           </h2>
           <p className="text-sm text-brand-text-secondary max-w-2xl mx-auto mb-8">
-            As soon as you receive your VixeoTV IPTV credentials, follow our straightforward <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup guides</Link> to start streaming on your preferred screen across all <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices</Link>:
+            As soon as you confirm your IPTV Map subscription, follow our step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup guides</Link> to start watching within 5 minutes across all <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices</Link>:
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
@@ -167,7 +182,7 @@ export default function PricingPage() {
             href="/setup"
             className="text-xs font-bold text-brand-primary hover:underline inline-flex items-center gap-1"
           >
-            <span>Browse All VixeoTV Device Setup Guides</span>
+            <span>Browse All IPTV Map Device Setup Guides</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
@@ -181,7 +196,7 @@ export default function PricingPage() {
               IPTV Billing &amp; Subscription Details
             </span>
             <h2 className="text-3xl font-black font-heading text-white mt-1">
-              Frequently Asked Questions About VixeoTV IPTV Pricing
+              Frequently Asked Questions About IPTV Map Pricing &amp; Billing
             </h2>
           </div>
           <FAQAccordion initialCategory="Subscription" limit={4} />
@@ -189,7 +204,7 @@ export default function PricingPage() {
       </section>
 
       <CTASection
-        title="Start Streaming With VixeoTV IPTV Today"
+        title="Start Streaming With IPTV Map Today"
         subtitle={
           <>
             Need assistance selecting the right <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV plan</Link> or <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device configuration</Link>? Our <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support specialists</Link> are available 24/7 on WhatsApp.

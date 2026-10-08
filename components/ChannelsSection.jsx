@@ -84,13 +84,13 @@ export default function ChannelsSection({ hideHeader = false }) {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/25 mb-4 font-heading">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Real Player Interface &amp; 4K Feeds</span>
+              <span>VERIFIED IPTV PLAYER FEEDS &amp; 4K LINEUP</span>
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4 leading-tight">
-              World-Class Sports, Cinema &amp; Live Television on VixeoTV IPTV
+              Stream Over 50,000 Live IPTV Channels &amp; 200,000+ 4K Cinema Titles with IPTV Map
             </h2>
             <p className="text-brand-text-secondary text-base sm:text-lg leading-relaxed">
-              Experience the actual high-definition player interface. Browse live 60FPS sports, international news networks, and thousands of 4K on-demand movies via our <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plans</Link> streamed directly through our <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Anti-Freeze servers</Link>.
+              Explore our high-performance live streaming catalog. From premier 60FPS sports leagues and international news networks to 200,000+ 4K on-demand movies and series, IPTV Map delivers crystal-clear broadcasts powered by our <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Anti-Freeze v2.0 streaming architecture</Link>. Browse by genre below and choose your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plan</Link> to start watching.
             </p>
           </div>
         )}
@@ -182,7 +182,8 @@ export default function ChannelsSection({ hideHeader = false }) {
                 <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-950">
                   <Image
                     src={item.image}
-                    alt={item.title}
+                    alt={item.alt || `IPTV Map ${item.title}`}
+                    title={item.imageTitle || `IPTV Map ${item.title}`}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 768px) 300px, (max-width: 1024px) 380px, 440px"
@@ -260,7 +261,7 @@ export default function ChannelsSection({ hideHeader = false }) {
             </Link>
 
             <a
-              href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello VixeoTV, I want to ask about the channel lineup.')}`}
+              href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello IPTV Map, I want to ask about the channel lineup.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full text-xs sm:text-sm font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-black transition-all font-heading"
@@ -313,7 +314,8 @@ export default function ChannelsSection({ hideHeader = false }) {
             <div className="relative aspect-[16/9] w-full bg-black">
               <Image
                 src={activeModalItem.image}
-                alt={activeModalItem.title}
+                alt={activeModalItem.alt || `IPTV Map ${activeModalItem.title}`}
+                title={activeModalItem.imageTitle || `IPTV Map ${activeModalItem.title}`}
                 fill
                 className="object-contain"
                 sizes="(max-width: 1280px) 100vw, 1200px"

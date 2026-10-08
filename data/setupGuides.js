@@ -2,13 +2,13 @@ export const setupGuides = {
   firestick: {
     slug: 'firestick',
     deviceName: 'Amazon Firestick',
-    title: 'How to Set Up VixeoTV on Amazon Firestick & Fire TV',
-    metaTitle: 'VixeoTV — Firestick IPTV Setup Guide | Easy 5-Min Install',
-    metaDescription: 'Step-by-step tutorial to install and configure VixeoTV on Amazon Fire TV Stick 4K and Cube using Downloader or IPTV Smarters Pro. Start streaming in 5 minutes.',
+    title: 'How to Set Up IPTV Map on Amazon Firestick & Fire TV',
+    metaTitle: 'IPTV Map — Firestick IPTV Setup Guide | Easy 5-Min Install',
+    metaDescription: 'Step-by-step tutorial to install and configure IPTV Map on Amazon Fire TV Stick 4K and Cube using Downloader or IPTV Smarters Pro. Start streaming in 5 minutes.',
     estimatedTime: '5-8 Minutes',
     difficulty: 'Easy',
     prerequisites: [
-      'Active VixeoTV subscription credentials (received via email or WhatsApp)',
+      'Active IPTV Map subscription credentials (received via email or WhatsApp)',
       'Amazon Fire TV Stick or Fire TV Cube connected to TV & Wi-Fi',
       'Stable internet connection (15+ Mbps for HD, 30+ Mbps for 4K)'
     ],
@@ -27,7 +27,7 @@ export const setupGuides = {
       {
         stepNumber: 3,
         title: 'Download your Preferred IPTV Player',
-        description: 'Launch Downloader, allow storage permissions, and enter the short code for IPTV Smarters Pro or enter the direct download URL provided in your VixeoTV welcome message. Click GO and install the APK.'
+        description: 'Launch Downloader, allow storage permissions, and enter the short code for IPTV Smarters Pro or enter the direct download URL provided in your IPTV Map welcome message. Click GO and install the APK.'
       },
       {
         stepNumber: 4,
@@ -36,8 +36,8 @@ export const setupGuides = {
       },
       {
         stepNumber: 5,
-        title: 'Enter VixeoTV Credentials',
-        description: 'Enter any Any Name (e.g. VixeoTV), then enter the exact Username, Password, and Server Portal URL provided by VixeoTV. Click Add User / Login.'
+        title: 'Enter IPTV Map Credentials',
+        description: 'Enter any Any Name (e.g. IPTV Map), then enter the exact Username, Password, and Server Portal URL provided by IPTV Map. Click Add User / Login.'
       },
       {
         stepNumber: 6,
@@ -61,8 +61,8 @@ export const setupGuides = {
     ],
     faqs: [
       {
-        q: 'Can I use a VPN with VixeoTV on Firestick?',
-        a: 'Yes. VixeoTV works seamlessly with or without a VPN. If you choose to use one, select a fast nearby server location.'
+        q: 'Can I use a VPN with IPTV Map on Firestick?',
+        a: 'Yes. IPTV Map works seamlessly with or without a VPN. If you choose to use one, select a fast nearby server location.'
       },
       {
         q: 'Do I need a 4K Firestick to watch 4K channels?',
@@ -73,13 +73,13 @@ export const setupGuides = {
   'android-tv': {
     slug: 'android-tv',
     deviceName: 'Android TV & Google TV',
-    title: 'How to Set Up VixeoTV on Android TV & Google TV',
-    metaTitle: 'VixeoTV — Android TV Setup Guide | Google Play & TiviMate',
+    title: 'How to Set Up IPTV Map on Android TV & Google TV',
+    metaTitle: 'IPTV Map — Android TV Setup Guide | Google Play & TiviMate',
     metaDescription: 'Step-by-step setup guide for Android TV, Sony, TCL, Nvidia Shield, and Chromecast. Install TiviMate or IPTV Smarters Pro quickly via the Google Play Store.',
     estimatedTime: '5 Minutes',
     difficulty: 'Easy',
     prerequisites: [
-      'Active VixeoTV subscription credentials',
+      'Active IPTV Map subscription credentials',
       'Android TV / Google TV device with Google Play Store access',
       'Broadband internet connection'
     ],
@@ -102,8 +102,8 @@ export const setupGuides = {
       },
       {
         stepNumber: 4,
-        title: 'Input Your VixeoTV Details',
-        description: 'Fill in your Server URL, Username, and Password as delivered in your VixeoTV confirmation email or WhatsApp message.'
+        title: 'Input Your IPTV Map Details',
+        description: 'Fill in your Server URL, Username, and Password as delivered in your IPTV Map confirmation email or WhatsApp message.'
       },
       {
         stepNumber: 5,
@@ -131,13 +131,13 @@ export const setupGuides = {
   'apple-tv': {
     slug: 'apple-tv',
     deviceName: 'Apple TV & iOS (iPhone / iPad)',
-    title: 'How to Set Up VixeoTV on Apple TV, iPhone & iPad',
-    metaTitle: 'VixeoTV — Apple TV & iOS Setup Guide | iPhone, iPad & tvOS',
-    metaDescription: 'Complete walkthrough to stream VixeoTV on Apple TV 4K, iPhone, and iPad using top App Store IPTV players like Smarters Player Lite and UHF with Xtream Codes.',
+    title: 'How to Set Up IPTV Map on Apple TV, iPhone & iPad',
+    metaTitle: 'IPTV Map — Apple TV & iOS Setup Guide | iPhone, iPad & tvOS',
+    metaDescription: 'Complete walkthrough to stream IPTV Map on Apple TV 4K, iPhone, and iPad using top App Store IPTV players like Smarters Player Lite and UHF with Xtream Codes.',
     estimatedTime: '4 Minutes',
     difficulty: 'Easy',
     prerequisites: [
-      'VixeoTV subscription details',
+      'IPTV Map subscription details',
       'Apple TV 4K, iPhone, or iPad running iOS/tvOS 14 or later',
       'Active Apple ID to download apps from the App Store'
     ],
@@ -161,7 +161,7 @@ export const setupGuides = {
       {
         stepNumber: 4,
         title: 'Fill Account Information',
-        description: 'Enter your credentials: Name (VixeoTV), Username, Password, and the complete Server URL.'
+        description: 'Enter your credentials: Name (IPTV Map), Username, Password, and the complete Server URL.'
       },
       {
         stepNumber: 5,
@@ -185,14 +185,14 @@ export const setupGuides = {
   'samsung-smart-tv': {
     slug: 'samsung-smart-tv',
     deviceName: 'Samsung Smart TV (Tizen)',
-    title: 'How to Set Up VixeoTV on Samsung Smart TV',
-    metaTitle: 'VixeoTV — Samsung Smart TV Setup Guide | Tizen OS Install',
-    metaDescription: 'Learn how to set up VixeoTV on Samsung Smart TV running Tizen OS. Step-by-step guide to configure IBO Player or Smart IPTV without any external TV box.',
+    title: 'How to Set Up IPTV Map on Samsung Smart TV',
+    metaTitle: 'IPTV Map — Samsung Smart TV Setup Guide | Tizen OS Install',
+    metaDescription: 'Learn how to set up IPTV Map on Samsung Smart TV running Tizen OS. Step-by-step guide to configure IBO Player or Smart IPTV without any external TV box.',
     estimatedTime: '7 Minutes',
     difficulty: 'Moderate',
     prerequisites: [
       'Samsung Smart TV (2017 model or newer with Tizen OS)',
-      'VixeoTV M3U link or Xtream credentials',
+      'IPTV Map M3U link or Xtream credentials',
       'Access to a smartphone or computer to upload playlist'
     ],
     recommendedApp: 'IBO Player / Smart IPTV / Nanomid',
@@ -215,7 +215,7 @@ export const setupGuides = {
       {
         stepNumber: 4,
         title: 'Upload Playlist Online',
-        description: 'From your smartphone or computer browser, go to the official portal management page of the player (e.g. iboplayer.com/manage), enter your MAC address, and paste your VixeoTV M3U URL or Xtream Codes details.'
+        description: 'From your smartphone or computer browser, go to the official portal management page of the player (e.g. iboplayer.com/manage), enter your MAC address, and paste your IPTV Map M3U URL or Xtream Codes details.'
       },
       {
         stepNumber: 5,
@@ -239,14 +239,14 @@ export const setupGuides = {
   'lg-smart-tv': {
     slug: 'lg-smart-tv',
     deviceName: 'LG Smart TV (webOS)',
-    title: 'How to Set Up VixeoTV on LG Smart TV (webOS)',
-    metaTitle: 'VixeoTV — LG Smart TV Setup Guide | webOS & IBO Player',
-    metaDescription: 'Easy step-by-step tutorial to install and configure VixeoTV on LG webOS Smart TVs using IBO Player or Smart IPTV directly from the LG Content Store.',
+    title: 'How to Set Up IPTV Map on LG Smart TV (webOS)',
+    metaTitle: 'IPTV Map — LG Smart TV Setup Guide | webOS & IBO Player',
+    metaDescription: 'Easy step-by-step tutorial to install and configure IPTV Map on LG webOS Smart TVs using IBO Player or Smart IPTV directly from the LG Content Store.',
     estimatedTime: '7 Minutes',
     difficulty: 'Moderate',
     prerequisites: [
       'LG Smart TV running webOS',
-      'VixeoTV M3U Playlist URL or Xtream credentials',
+      'IPTV Map M3U Playlist URL or Xtream credentials',
       'Internet connection on your TV'
     ],
     recommendedApp: 'IBO Player / SS IPTV / Smart IPTV',
@@ -268,8 +268,8 @@ export const setupGuides = {
       },
       {
         stepNumber: 4,
-        title: 'Link Your VixeoTV Subscription',
-        description: 'Visit the player management website on your phone or laptop. Connect your device using the MAC address and enter your VixeoTV M3U playlist.'
+        title: 'Link Your IPTV Map Subscription',
+        description: 'Visit the player management website on your phone or laptop. Connect your device using the MAC address and enter your IPTV Map M3U playlist.'
       },
       {
         stepNumber: 5,
@@ -293,14 +293,14 @@ export const setupGuides = {
   windows: {
     slug: 'windows',
     deviceName: 'Windows PC & macOS',
-    title: 'How to Set Up VixeoTV on Windows PC and Mac',
-    metaTitle: 'VixeoTV — Windows PC & Mac Setup Guide | Desktop Streaming',
-    metaDescription: 'Watch VixeoTV IPTV on Windows 10/11 and macOS using IPTV Smarters Pro or VLC Media Player. Quick 3-minute setup for crystal-clear desktop streaming.',
+    title: 'How to Set Up IPTV Map on Windows PC and Mac',
+    metaTitle: 'IPTV Map — Windows PC & Mac Setup Guide | Desktop Streaming',
+    metaDescription: 'Watch IPTV Map IPTV on Windows 10/11 and macOS using IPTV Smarters Pro or VLC Media Player. Quick 3-minute setup for crystal-clear desktop streaming.',
     estimatedTime: '3 Minutes',
     difficulty: 'Very Easy',
     prerequisites: [
       'PC running Windows 10/11 or Mac running macOS',
-      'VixeoTV login credentials or M3U link',
+      'IPTV Map login credentials or M3U link',
       'Internet connection'
     ],
     recommendedApp: 'IPTV Smarters Pro for Windows/Mac or VLC Media Player',
@@ -318,7 +318,7 @@ export const setupGuides = {
       {
         stepNumber: 3,
         title: 'Enter Login Details',
-        description: 'Choose "Login with Xtream Codes API". Enter your VixeoTV username, password, and server URL.'
+        description: 'Choose "Login with Xtream Codes API". Enter your IPTV Map username, password, and server URL.'
       },
       {
         stepNumber: 4,
@@ -342,15 +342,15 @@ export const setupGuides = {
   mag: {
     slug: 'mag',
     deviceName: 'MAG & Portal Box',
-    title: 'How to Set Up VixeoTV on MAG Box (Infomir / Formuler)',
-    metaTitle: 'VixeoTV — MAG Box Setup Guide | Infomir & Stalker Portal',
-    metaDescription: 'Detailed setup tutorial for Infomir MAG 254, 322, 424, 524 and Formuler boxes. Configure your VixeoTV Stalker Portal URL and MAC address with ease.',
+    title: 'How to Set Up IPTV Map on MAG Box (Infomir / Formuler)',
+    metaTitle: 'IPTV Map — MAG Box Setup Guide | Infomir & Stalker Portal',
+    metaDescription: 'Detailed setup tutorial for Infomir MAG 254, 322, 424, 524 and Formuler boxes. Configure your IPTV Map Stalker Portal URL and MAC address with ease.',
     estimatedTime: '5 Minutes',
     difficulty: 'Moderate',
     prerequisites: [
       'MAG Set-Top Box connected to TV via HDMI and Ethernet',
-      'Device MAC address (starts with 00:1A:79:...) registered with VixeoTV',
-      'VixeoTV Portal URL'
+      'Device MAC address (starts with 00:1A:79:...) registered with IPTV Map',
+      'IPTV Map Portal URL'
     ],
     recommendedApp: 'Embedded Stalker Middleware / MyTVOnline',
     steps: [
@@ -361,7 +361,7 @@ export const setupGuides = {
       },
       {
         stepNumber: 2,
-        title: 'Send MAC Address to VixeoTV Support',
+        title: 'Send MAC Address to IPTV Map Support',
         description: 'Send your MAC address to our WhatsApp support or include it when purchasing so our system can authorize your device.'
       },
       {
@@ -372,12 +372,12 @@ export const setupGuides = {
       {
         stepNumber: 4,
         title: 'Configure Portal URL',
-        description: 'In Portal 1 Name, enter "VixeoTV". In Portal 1 URL, enter the exact portal link provided by our support team. Click Save.'
+        description: 'In Portal 1 Name, enter "IPTV Map". In Portal 1 URL, enter the exact portal link provided by our support team. Click Save.'
       },
       {
         stepNumber: 5,
         title: 'Reboot Device',
-        description: 'Navigate back and select Reboot Device. Your MAG box will automatically boot into the VixeoTV portal with TV categories, EPG, and VoD.'
+        description: 'Navigate back and select Reboot Device. Your MAG box will automatically boot into the IPTV Map portal with TV categories, EPG, and VoD.'
       }
     ],
     troubleshooting: [

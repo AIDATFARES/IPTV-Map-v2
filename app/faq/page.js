@@ -8,8 +8,8 @@ import { faqs } from '@/data/faq';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — FAQ & Helpdesk | Common IPTV Questions Answered',
-  description: 'Find clear answers about VixeoTV IPTV subscriptions, compatible streaming apps, speed requirements, 4K channels, Anti-Freeze technology, and refund terms.',
+  title: 'IPTV Map — FAQ & Helpdesk | Common IPTV Questions Answered',
+  description: 'Find clear answers about IPTV Map subscriptions, compatible streaming apps, speed requirements, 4K channels, Anti-Freeze technology, and refund terms.',
   alternates: {
     canonical: `${siteConfig.domain}/faq`,
   },
@@ -56,10 +56,10 @@ export default function FAQPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="VixeoTV IPTV Knowledge Base"
+        badge="IPTV MAP KNOWLEDGE BASE"
         title="Frequently Asked Questions About"
-        titleAccent="VixeoTV IPTV"
-        description="Browse clear, categorized answers to common questions about VixeoTV IPTV subscriptions, compatible devices, 4K streaming quality, Anti-Freeze technology, and setup procedures."
+        titleAccent="IPTV Map Streaming"
+        description="Browse clear, categorized answers to common questions about IPTV Map subscriptions, compatible streaming apps, 4K broadcast stability, Anti-Freeze technology, and quick setup procedures."
         breadcrumbs={breadcrumbs}
       />
 
@@ -73,10 +73,10 @@ export default function FAQPage() {
               <MessageCircle className="w-5 h-5" />
             </div>
             <h3 className="text-lg font-bold font-heading text-white mb-2">
-              Have a Question About VixeoTV IPTV?
+              Have a Question About Your IPTV Map Setup?
             </h3>
             <p className="text-xs sm:text-sm text-brand-text-secondary mb-5">
-              Our customer care and technical <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support specialists</Link> are available 24/7 on WhatsApp to answer your questions and assist with immediate <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV setup</Link> or <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription orders</Link>.
+              Our customer care and technical <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support specialists</Link> are available 24/7 on WhatsApp to answer your questions and assist with immediate <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">player setup</Link> or <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription orders</Link>.
             </p>
             <a
               href={siteConfig.whatsappUrl}
@@ -92,10 +92,10 @@ export default function FAQPage() {
       </section>
 
       <CTASection
-        title="Ready to Experience VixeoTV IPTV?"
+        title="Ready to Experience IPTV Map 4K Streaming?"
         subtitle={
           <>
-            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe in seconds</Link>, receive your credentials instantly, and start streaming buffer-free 4K <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">television and sports</Link> across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">devices</Link>.
+            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe in seconds</Link>, receive your credentials instantly, and start streaming buffer-free 4K <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live television and sports</Link> across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">favorite devices</Link>.
           </>
         }
       />

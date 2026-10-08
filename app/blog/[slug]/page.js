@@ -18,18 +18,18 @@ export async function generateMetadata({ params }) {
   const post = blogPosts.find((p) => p.slug === slug);
 
   if (!post) {
-    return { title: 'VixeoTV — Article Not Found' };
+    return { title: 'IPTV Map — Article Not Found' };
   }
 
   return {
-    title: post.metaTitle || `VixeoTV — ${post.title}`,
+    title: post.metaTitle || `IPTV Map — ${post.title}`,
     description: post.metaDescription || post.excerpt,
     keywords: post.keywords,
     alternates: {
       canonical: `${siteConfig.domain}/blog/${post.slug}`,
     },
     openGraph: {
-      title: post.metaTitle || `VixeoTV — ${post.title}`,
+      title: post.metaTitle || `IPTV Map — ${post.title}`,
       description: post.metaDescription || post.excerpt,
       type: 'article',
       publishedTime: post.date,
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
           url: `${siteConfig.domain}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: post.title,
+          alt: `IPTV Map Streaming Guide: ${post.title}`,
           type: 'image/jpeg',
         },
       ],
@@ -150,6 +150,13 @@ export default async function BlogPostPage({ params }) {
     '@type': 'Article',
     headline: post.title,
     description: post.metaDescription || post.excerpt,
+    image: {
+      '@type': 'ImageObject',
+      url: `${siteConfig.domain}/og-image.jpg`,
+      width: 1200,
+      height: 630,
+      caption: `IPTV Map Tutorial — ${post.title}`,
+    },
     datePublished: post.date,
     dateModified: post.date,
     mainEntityOfPage: `${siteConfig.domain}/blog/${post.slug}`,
@@ -445,7 +452,7 @@ export default async function BlogPostPage({ params }) {
         title="Ready to Put These Guides into Practice?"
         subtitle={
           <>
-            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe to VixeoTV today</Link>, get instant credentials, and enjoy 4K Ultra HD <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live TV and sports</Link> across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">devices</Link>.
+            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe to IPTV Map today</Link>, get instant credentials, and enjoy 4K Ultra HD <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live TV and sports</Link> across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">devices</Link>.
           </>
         }
       />

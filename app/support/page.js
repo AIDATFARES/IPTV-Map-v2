@@ -9,8 +9,8 @@ import {
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — 24/7 Technical Support | Live Assistance & Helpdesk',
-  description: 'Get immediate technical support for VixeoTV IPTV. Live 24/7 assistance on WhatsApp for player setup, playlist URLs, and stream troubleshooting.',
+  title: 'IPTV Map — 24/7 Technical Support | Live Assistance & Helpdesk',
+  description: 'Get immediate technical support for IPTV Map. Live 24/7 assistance on WhatsApp for player setup, playlist URLs, and stream troubleshooting.',
   alternates: {
     canonical: `${siteConfig.domain}/support`,
   },
@@ -43,10 +43,10 @@ export default function SupportPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="24/7 Dedicated IPTV Helpdesk"
+        badge="24/7 DEDICATED IPTV HELPDESK"
         title="24/7 Dedicated Support for Your"
-        titleAccent="VixeoTV IPTV Streaming"
-        description="Whether you need assistance configuring your IPTV player, renewing your subscription, or troubleshooting live sports streams, our technical specialists are available 24/7 on WhatsApp."
+        titleAccent="IPTV Map Streaming"
+        description="Whether you need assistance configuring your IPTV player, renewing your subscription, or optimizing live sports streams, our technical specialists are available 24/7 on WhatsApp."
         breadcrumbs={breadcrumbs}
       />
 
@@ -63,10 +63,10 @@ export default function SupportPage() {
                   Primary Support Channel
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-black font-heading text-white mb-2">
-                  Live WhatsApp IPTV Assistance
+                  Live WhatsApp IPTV Support &amp; Setup Assistance
                 </h2>
                 <p className="text-sm text-brand-text-secondary leading-relaxed mb-4">
-                  Connect directly with our technicians for instant VixeoTV IPTV account provisioning, step-by-step remote <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">installation advice</Link>, and connection diagnostics across all <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices</Link>.
+                  Connect directly with our technicians for instant IPTV Map account provisioning, step-by-step remote <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">installation walkthroughs</Link>, and connection diagnostics across all <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices</Link>.
                 </p>
                 <div className="text-xs text-emerald-400 font-semibold flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
@@ -96,10 +96,10 @@ export default function SupportPage() {
                 <BookOpen className="w-6 h-6" />
               </div>
               <h3 className="text-base font-bold font-heading text-white mb-2">
-                Setup Guides Directory
+                Device Setup Guides
               </h3>
               <p className="text-xs text-brand-text-secondary leading-relaxed mb-4">
-                Detailed tutorials for Amazon Firestick, Android TV, Apple TV, Smart TVs, and MAG boxes to configure your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription</Link>.
+                Detailed step-by-step tutorials for Amazon Firestick, Android TV, Apple TV, Smart TVs, and MAG boxes to configure your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription</Link>.
               </p>
               <span className="text-xs font-bold text-brand-primary flex items-center gap-1">
                 <span>View Guides</span>
@@ -118,7 +118,7 @@ export default function SupportPage() {
                 Knowledge Base &amp; FAQ
               </h3>
               <p className="text-xs text-brand-text-secondary leading-relaxed mb-4">
-                Quick answers on playlist URLs, Xtream Codes API, player buffering, and renewal policies — explore our full <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">FAQ knowledge base</Link>.
+                Quick answers on M3U playlist URLs, Xtream Codes API, player buffering fixes, and renewal policies — explore our full <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">FAQ knowledge base</Link>.
               </p>
               <span className="text-xs font-bold text-brand-primary flex items-center gap-1">
                 <span>Browse FAQ</span>
@@ -134,10 +134,10 @@ export default function SupportPage() {
                 <Mail className="w-6 h-6" />
               </div>
               <h3 className="text-base font-bold font-heading text-white mb-2">
-                Email Helpdesk
+                Email Helpdesk &amp; Inquiries
               </h3>
               <p className="text-xs text-brand-text-secondary leading-relaxed mb-4">
-                Prefer email correspondence? Submit your technical inquiry directly via our <Link href="/contact" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">contact desk</Link> or email support@vixeotv.net.
+                Prefer email correspondence? Submit your technical inquiry directly via our <Link href="/contact" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">contact desk</Link> or email support@iptvmap.it.com.
               </p>
               <span className="text-xs font-bold text-brand-primary flex items-center gap-1">
                 <span>Contact Desk</span>
@@ -174,10 +174,10 @@ export default function SupportPage() {
       </section>
 
       <CTASection
-        title="Ready to Get Started with VixeoTV IPTV?"
+        title="Ready to Get Started with IPTV Map?"
         subtitle={
           <>
-            Select your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription plan</Link>, receive instant credentials, and let our 24/7 WhatsApp support team guide your <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup</Link>.
+            Select your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV Map subscription plan</Link>, receive instant credentials, and let our 24/7 WhatsApp support team guide your <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup</Link> in under 5 minutes.
           </>
         }
       />

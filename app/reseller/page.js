@@ -21,8 +21,8 @@ import { resellerCreditPackages, resellerFaq } from '@/data/pricing';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — IPTV Reseller Panel & Credits | Start Your IPTV Business',
-  description: 'Launch your branded IPTV service with VixeoTV. 120 to 600 credits from $399 with dedicated Xtream Codes panel, sub-reseller access, free trials, and 24/7 VIP support.',
+  title: 'IPTV Map — IPTV Reseller Panel & Credits | Start Your IPTV Business',
+  description: 'Launch your branded IPTV service with IPTV Map. 120 to 600 credits from $399 with dedicated Xtream Codes panel, sub-reseller access, free trials, and 24/7 VIP support.',
   keywords: [
     'IPTV reseller',
     'buy IPTV credits',
@@ -30,7 +30,7 @@ export const metadata = {
     'start IPTV business',
     'Xtream Codes reseller panel',
     'cheap IPTV credits',
-    'VixeoTV reseller program',
+    'IPTV Map reseller program',
     'IPTV sub-reseller'
   ],
   alternates: {
@@ -47,14 +47,24 @@ export default function ResellerPage() {
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: 'VixeoTV IPTV Reseller Panel & Credits',
+    name: 'IPTV Map IPTV Reseller Panel & Credits',
     description: 'High-margin IPTV reseller program with dedicated Xtream Codes panel, credits that never expire, and sub-reseller management.',
     image: [
-      `${siteConfig.domain}/images/hero-tv-show.jpg`,
-      `${siteConfig.domain}/images/hero-sports.jpg`
+      {
+        '@type': 'ImageObject',
+        url: `${siteConfig.domain}/images/iptvmap-hero-tv-entertainment.jpg`,
+        name: 'IPTV Map Reseller Panel Streaming Portfolio',
+        caption: 'High margin IPTV reseller panel with 50,000+ live 4K channels and 200,000+ VOD'
+      },
+      {
+        '@type': 'ImageObject',
+        url: `${siteConfig.domain}/images/iptvmap-hero-sports-stadium.jpg`,
+        name: 'IPTV Map Reseller 60FPS Sports Quality',
+        caption: 'Ultra-low latency live sports streams for IPTV resellers'
+      }
     ],
-    sku: 'VIXEOTV-RESELLER-PANEL',
-    mpn: 'VIXEOTV-CREDITS-PANEL',
+    sku: 'IPTVMAP-RESELLER-PANEL',
+    mpn: 'IPTVMAP-CREDITS-PANEL',
     brand: {
       '@type': 'Brand',
       name: siteConfig.name,
@@ -158,9 +168,9 @@ export default function ResellerPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="Official Reseller Program"
+        badge="OFFICIAL IPTV MAP RESELLER PROGRAM"
         title="Start Your Own IPTV Business with"
-        titleAccent="VixeoTV Credits"
+        titleAccent="IPTV Map Credits"
         description="Launch an independent, high-margin IPTV streaming business with our enterprise infrastructure. Get access to an official Xtream Codes management panel, generate unlimited free test lines, enjoy credits that never expire, and scale with sub-reseller controls."
         breadcrumbs={breadcrumbs}
       />
@@ -177,7 +187,7 @@ export default function ResellerPage() {
               Transparent Credit Tiers
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4">
-              Wholesale IPTV Reseller Packages
+              Wholesale IPTV Reseller Packages &amp; Credits
             </h2>
             <p className="text-brand-text-secondary text-base sm:text-lg">
               Each credit equals 1 month of active IPTV service. Select the tier that matches your customer volume. Compare with standard <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">retail subscription plans</Link> or connect with our <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">wholesale desk</Link>.
@@ -318,7 +328,7 @@ export default function ResellerPage() {
               </div>
             </div>
             <a
-              href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello VixeoTV support, I want to request a demo of the IPTV Reseller Panel.')}`}
+              href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello IPTV Map support, I want to request a demo of the IPTV Reseller Panel.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary text-brand-bg hover:shadow-glow-primary transition-all shrink-0"
@@ -335,7 +345,7 @@ export default function ResellerPage() {
                 Operational Excellence
               </span>
               <h2 className="text-3xl font-black text-white uppercase tracking-tight mt-1 mb-4">
-                VixeoTV Reseller Platform Advantages
+                IPTV Map Reseller Platform Advantages
               </h2>
               <p className="text-brand-text-secondary text-sm sm:text-base leading-relaxed">
                 Everything required to establish, operate, and scale an independent IPTV operation with industry-leading stream retention and stability.
@@ -368,10 +378,10 @@ export default function ResellerPage() {
           <div className="mt-24 max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <span className="text-xs font-bold uppercase tracking-wider text-brand-primary font-heading">
-                Seller Knowledge Base
+                Reseller Knowledge Base
               </span>
               <h2 className="text-2xl sm:text-3xl font-black text-white uppercase tracking-tight mt-1">
-                Frequently Asked Reseller Questions
+                Frequently Asked Questions About IPTV Reselling
               </h2>
             </div>
 

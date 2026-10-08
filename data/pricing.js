@@ -8,20 +8,20 @@ export const retailSubscriptionPlans = [
     period: '/month',
     monthlyEquivalent: '$14.99/mo',
     billingNote: 'Billed once for 1 month',
-    description: 'Perfect for testing VixeoTV IPTV high-speed streaming infrastructure with zero long-term commitment.',
+    description: 'Ideal for experiencing IPTV Map premium 4K streaming infrastructure with full access to 50,000+ live channels, 200,000+ VOD titles, and zero long-term commitment.',
     popular: false,
     savingsText: null,
     features: [
-      'Full Live TV & international entertainment channels',
+      '50,000+ Live TV & international entertainment channels',
       'Ultra HD 4K & Full HD 60FPS streaming quality',
       '99.9% Uptime with Anti-Freeze v2.0 technology',
-      'Electronic Program Guide (EPG) included',
+      'Interactive 7-day Electronic Program Guide (EPG)',
       'Instant IPTV activation with Xtream Codes & M3U',
-      'Compatible with Smart TVs, Firestick, Android & Apple',
+      'Universal compatibility (Firestick, Smart TV, Android, Apple & PC)',
       '24/7 WhatsApp customer care & setup guidance'
     ],
     ctaText: 'Get 1 Month Plan',
-    whatsappMessage: 'Hello VixeoTV support, I want to subscribe to the 1 Month Plan ($14.99).'
+    whatsappMessage: 'Hello IPTV Map support, I want to subscribe to the 1 Month Plan ($14.99).'
   },
   {
     id: '3-months',
@@ -32,20 +32,20 @@ export const retailSubscriptionPlans = [
     period: '/quarter',
     monthlyEquivalent: '$11.67/mo',
     billingNote: 'Billed once every 3 months',
-    description: 'Great balance of flexibility and value for seasonal live sports, PPV events, and family movie nights.',
+    description: 'The smart quarterly IPTV plan for championship sports, major PPV tournaments, and family entertainment with substantial savings.',
     popular: false,
     savingsText: 'Save 22% vs monthly',
     features: [
-      'Full Live TV & international entertainment channels',
+      '50,000+ Live TV & international entertainment channels',
       'Ultra HD 4K & Full HD 60FPS streaming quality',
       '99.9% Uptime with Anti-Freeze v2.0 technology',
-      'Electronic Program Guide (EPG) included',
+      'Interactive 7-day Electronic Program Guide (EPG)',
       'Instant IPTV activation with Xtream Codes & M3U',
-      'Compatible with Smart TVs, Firestick, Android & Apple',
+      'Universal compatibility (Firestick, Smart TV, Android, Apple & PC)',
       '24/7 WhatsApp customer care & setup guidance'
     ],
     ctaText: 'Get 3 Months Plan',
-    whatsappMessage: 'Hello VixeoTV support, I want to subscribe to the 3 Months Plan ($35.00).'
+    whatsappMessage: 'Hello IPTV Map support, I want to subscribe to the 3 Months Plan ($35.00).'
   },
   {
     id: '6-months',
@@ -56,20 +56,20 @@ export const retailSubscriptionPlans = [
     period: '/6-months',
     monthlyEquivalent: '$8.33/mo',
     billingNote: 'Billed once every 6 months',
-    description: 'Six months of uninterrupted high-definition live television, global sports leagues, and on-demand entertainment.',
+    description: 'Six months of buffer-free 4K live television, worldwide sports leagues in 60FPS, and 200,000+ on-demand movies at an exceptional monthly rate.',
     popular: false,
     savingsText: 'Save 44% vs monthly',
     features: [
-      'Full Live TV & international entertainment channels',
+      '50,000+ Live TV & international entertainment channels',
       'Ultra HD 4K & Full HD 60FPS streaming quality',
       '99.9% Uptime with Anti-Freeze v2.0 technology',
-      'Electronic Program Guide (EPG) included',
+      'Interactive 7-day Electronic Program Guide (EPG)',
       'Instant IPTV activation with Xtream Codes & M3U',
-      'Compatible with Smart TVs, Firestick, Android & Apple',
-      'Priority routing & 24/7 WhatsApp support'
+      'Universal compatibility (Firestick, Smart TV, Android, Apple & PC)',
+      'Priority server routing & 24/7 WhatsApp support'
     ],
     ctaText: 'Get 6 Months Plan',
-    whatsappMessage: 'Hello VixeoTV support, I want to subscribe to the 6 Months Plan ($49.99).'
+    whatsappMessage: 'Hello IPTV Map support, I want to subscribe to the 6 Months Plan ($49.99).'
   },
   {
     id: '1-year',
@@ -80,20 +80,20 @@ export const retailSubscriptionPlans = [
     period: '/year',
     monthlyEquivalent: '$5.83/mo',
     billingNote: 'Billed once annually',
-    description: 'Our most popular IPTV subscription offering maximum long-term stability, dedicated CDN bandwidth, and the best annual value.',
+    description: 'Our flagship IPTV subscription package. Maximum server stability, priority CDN bandwidth allocation, and our most popular annual value.',
     popular: true,
     savingsText: 'Save 61% vs monthly',
     features: [
-      'Full Live TV & international entertainment channels',
+      '50,000+ Live TV & international entertainment channels',
       'Ultra HD 4K & Full HD 60FPS streaming quality',
       'High-speed dedicated streaming CDN bandwidth',
       'Real-time Electronic Program Guide (EPG) with automatic refresh',
       'Instant VIP account provisioning (Xtream Codes API & M3U URL)',
-      'Multi-device flexibility (Smart TV, Firestick, iOS, Android, PC)',
+      'Universal multi-device flexibility (Smart TV, Firestick, iOS, Android, PC)',
       'Priority 24/7 dedicated WhatsApp support desk'
     ],
     ctaText: 'Get 1 Year Plan',
-    whatsappMessage: 'Hello VixeoTV support, I want to subscribe to the 12 Months (1 Year) Plan ($69.99).'
+    whatsappMessage: 'Hello IPTV Map support, I want to subscribe to the 12 Months (1 Year) Plan ($69.99).'
   },
   {
     id: '2-years',
@@ -104,11 +104,11 @@ export const retailSubscriptionPlans = [
     period: '/2-years',
     monthlyEquivalent: '$5.00/mo',
     billingNote: 'Billed once every 2 years',
-    description: 'The ultimate cord-cutting IPTV package with our lowest monthly equivalent rate and VIP priority server routing.',
+    description: 'The ultimate cord-cutting package with our lowest monthly equivalent rate, VIP priority server routing, and complete long-term peace of mind.',
     popular: false,
     savingsText: 'Save 67% vs monthly',
     features: [
-      'Full Live TV & international entertainment channels',
+      '50,000+ Live TV & international entertainment channels',
       'Ultra HD 4K & Full HD 60FPS streaming quality',
       'VIP low-latency CDN server pool with maximum stability',
       'Comprehensive real-time EPG TV guide',
@@ -118,7 +118,7 @@ export const retailSubscriptionPlans = [
       'Dedicated VIP WhatsApp agent on standby 24/7'
     ],
     ctaText: 'Get 2 Years Plan',
-    whatsappMessage: 'Hello VixeoTV support, I want to subscribe to the 24 Months (2 Years) Plan ($119.99).'
+    whatsappMessage: 'Hello IPTV Map support, I want to subscribe to the 24 Months (2 Years) Plan ($119.99).'
   }
 ];
 
@@ -151,7 +151,7 @@ export const resellerCreditPackages = [
       '24/7 dedicated VIP WhatsApp support desk'
     ],
     ctaText: 'Order 120 Credits',
-    whatsappMessage: 'Hello VixeoTV support, I want to order the 120 Credits Reseller Panel ($399).'
+    whatsappMessage: 'Hello IPTV Map support, I want to order the 120 Credits Reseller Panel ($399).'
   },
   {
     id: '240-credits',
@@ -177,7 +177,7 @@ export const resellerCreditPackages = [
       '24/7 dedicated VIP WhatsApp support desk'
     ],
     ctaText: 'Order 240 Credits',
-    whatsappMessage: 'Hello VixeoTV support, I want to order the 240 Credits Reseller Panel ($799).'
+    whatsappMessage: 'Hello IPTV Map support, I want to order the 240 Credits Reseller Panel ($799).'
   },
   {
     id: '360-credits',
@@ -203,7 +203,7 @@ export const resellerCreditPackages = [
       '24/7 dedicated VIP WhatsApp support desk'
     ],
     ctaText: 'Order 360 Credits',
-    whatsappMessage: 'Hello VixeoTV support, I want to order the 360 Credits Reseller Panel ($1199).'
+    whatsappMessage: 'Hello IPTV Map support, I want to order the 360 Credits Reseller Panel ($1199).'
   },
   {
     id: '480-credits',
@@ -229,7 +229,7 @@ export const resellerCreditPackages = [
       '24/7 dedicated VIP WhatsApp support desk'
     ],
     ctaText: 'Order 480 Credits',
-    whatsappMessage: 'Hello VixeoTV support, I want to order the 480 Credits Reseller Panel ($1599).'
+    whatsappMessage: 'Hello IPTV Map support, I want to order the 480 Credits Reseller Panel ($1599).'
   },
   {
     id: '600-credits',
@@ -255,7 +255,7 @@ export const resellerCreditPackages = [
       '24/7 dedicated VIP WhatsApp support desk'
     ],
     ctaText: 'Order 600 Credits',
-    whatsappMessage: 'Hello VixeoTV support, I want to order the 600 Credits Reseller Panel ($1999).'
+    whatsappMessage: 'Hello IPTV Map support, I want to order the 600 Credits Reseller Panel ($1999).'
   }
 ];
 
@@ -274,7 +274,7 @@ export const resellerFaq = [
   },
   {
     question: 'Can I create sub-resellers under my panel?',
-    answer: 'Yes. All VixeoTV reseller panel packages include full sub-reseller creation privileges. You can transfer credits from your balance to your sub-resellers at your own custom wholesale rates.'
+    answer: 'Yes. All IPTV Map reseller panel packages include full sub-reseller creation privileges. You can transfer credits from your balance to your sub-resellers at your own custom wholesale rates.'
   },
   {
     question: 'What management panel is provided?',
@@ -291,18 +291,18 @@ export const connectionOptions = [
 export const pricingGuarantees = [
   {
     title: 'Instant IPTV Activation',
-    description: 'Receive your VixeoTV IPTV server credentials and setup instructions within minutes of payment confirmation.'
+    description: 'Receive your official IPTV Map Xtream Codes credentials and M3U playlist link within minutes of order confirmation.'
   },
   {
     title: 'Transparent Cord-Cutting',
-    description: 'No surprise automatic renewals or hidden lock-ins. You remain in complete control of your subscription.'
+    description: 'Zero hidden contracts, no forced recurring debits, and zero setup fees. You remain in complete control of your subscription.'
   },
   {
-    title: 'Technical Satisfaction',
-    description: 'Direct technical onboarding and fast troubleshooting assistance through our 24/7 WhatsApp helpdesk.'
+    title: 'Anti-Freeze v2.0 Stability',
+    description: 'Engineered with intelligent stream load balancing and backed by dedicated 24/7 WhatsApp technical specialists.'
   },
   {
-    title: 'Multi-Device Flexibility',
-    description: 'Stream effortlessly across Amazon Firestick, Android TV boxes, Samsung/LG Smart TVs, smartphones, and PCs.'
+    title: 'Universal Multi-Device Freedom',
+    description: 'Stream seamlessly across Amazon Firestick, Smart TVs (Samsung & LG), Android, Apple TV, iOS, and PC.'
   }
 ];

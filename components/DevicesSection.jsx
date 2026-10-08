@@ -40,16 +40,16 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
           <div className="text-center max-w-3xl mx-auto mb-14 md:mb-16">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/25 mb-4 font-heading">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Universal Streaming Ecosystem</span>
+              <span>UNIVERSAL IPTV DEVICE COMPATIBILITY</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white tracking-tight mb-4 leading-[1.15]">
-              Watch on Every Screen You Own.{' '}
+              Stream IPTV Map on Every Screen You Own:{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-primary-light to-white">
-                Zero Complex Setup.
+                Fast &amp; Effortless Setup.
               </span>
             </h2>
             <p className="text-brand-text-secondary text-base sm:text-lg leading-relaxed">
-              From 85-inch living room OLED TVs to pocket iPhones and travel laptops — VixeoTV runs natively on 100% of major streaming devices with zero lag and instant 2-minute activation on all <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plans</Link>.
+              From living room 4K OLED Smart TVs and Firesticks to Apple TV, Android boxes, and smartphones — IPTV Map runs smoothly across all major streaming platforms with zero hardware locks, high-bitrate playback, and fast activation across all <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plans</Link>.
             </p>
           </div>
         )}
@@ -119,7 +119,8 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
                   <div className="relative aspect-video w-full overflow-hidden bg-slate-950">
                     <Image
                       src={activeDevice.previewImage}
-                      alt={activeDevice.name}
+                      alt={activeDevice.previewAlt || `IPTV Map ${activeDevice.name} 4K Streaming Setup`}
+                      title={`IPTV Map on ${activeDevice.name} - ${activeDevice.previewTitle}`}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 1024px) 100vw, 60vw"
@@ -158,8 +159,8 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
                   {/* Bottom Bezel with Metallic Stand Accent */}
                   <div className="bg-[#0A0E17] py-2 px-4 flex items-center justify-between text-[10px] text-slate-300 border-t border-white/5">
                     <div className="flex items-center gap-1.5 font-heading font-black tracking-wider text-brand-primary">
-                      <span>VIXEO</span>
-                      <span className="text-white">TV</span>
+                      <span>IPTV</span>
+                      <span className="text-white">MAP</span>
                     </div>
                     <span className="text-slate-300">Certified Player Feed • Ultra Low Latency</span>
                   </div>
@@ -267,7 +268,7 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
                   </Link>
 
                   <a
-                    href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent(`Hello VixeoTV, I need help setting up on my ${activeDevice.name}`)}`}
+                    href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent(`Hello IPTV Map, I need help setting up on my ${activeDevice.name}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-xs sm:text-sm font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-500 hover:text-black transition-all"
@@ -401,13 +402,13 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
               <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
                 <div className="max-w-xl text-center lg:text-left">
                   <span className="text-xs font-bold uppercase tracking-wider text-brand-primary font-heading">
-                    Universal Protocol Support
+                    OPEN PROTOCOL &amp; PLAYER SUPPORT
                   </span>
                   <h3 className="text-lg sm:text-xl font-bold font-heading text-white mt-1 mb-2">
-                    Already Have a Preferred Player Installed?
+                    Already Have an IPTV Player Installed?
                   </h3>
                   <p className="text-xs sm:text-sm text-brand-text-secondary leading-relaxed">
-                    VixeoTV is fully open and compatible with any IPTV app in the world. Connect in seconds via Xtream Codes API, standard M3U/M3U8 URLs, or MAG Stalker portals — check out our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">configuration guides</Link> or view our <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">channel list</Link>.
+                    IPTV Map connects seamlessly with any IPTV media player on the market. Authenticate instantly via Xtream Codes API, M3U/M3U8 URLs, or MAG Stalker portal addresses. Check our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup tutorials</Link> or browse our <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">complete channel lineup</Link>.
                   </p>
                 </div>
 
@@ -434,17 +435,17 @@ export default function DevicesSection({ hideHeader = false, showProtocolsAndHel
                 </div>
                 <div>
                   <h3 className="text-base sm:text-lg font-bold text-white font-heading">
-                    Can&apos;t find your device or need personal help?
+                    Need Assistance Setting Up IPTV Map on Your Device?
                   </h3>
                   <p className="text-xs sm:text-sm text-brand-text-secondary mt-0.5">
-                    Our technical <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support engineers</Link> are available 24/7 on WhatsApp to guide you step-by-step through installation or check our <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">frequently asked questions</Link>.
+                    Our dedicated IPTV support engineers are available 24/7 on WhatsApp to guide you through player installation step-by-step or assist with troubleshooting. Explore our <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">frequently asked questions</Link> or connect with our <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support desk</Link>.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center gap-3 flex-shrink-0 w-full sm:w-auto">
                 <a
-                  href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello VixeoTV, I need help setting up my device.')}`}
+                  href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello IPTV Map, I need help setting up my device.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-xs sm:text-sm font-bold bg-emerald-500 hover:bg-emerald-400 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all font-heading"

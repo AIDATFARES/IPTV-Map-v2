@@ -52,13 +52,13 @@ export default function FeaturesSection({ showComparison = true, hideHeader = fa
         {!hideHeader && (
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/20 mb-3 font-heading">
-              Engineered for IPTV Stability
+              ENGINEERED FOR STREAM STABILITY
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4">
-              Advanced VixeoTV IPTV Features Built for Peak Performance
+              Advanced IPTV Map Features Built for Peak Performance
             </h2>
             <p className="text-brand-text-secondary text-base sm:text-lg">
-              From Ultra HD <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live sports feeds</Link> to real-time EPG schedules, VixeoTV IPTV is engineered to eliminate buffering and deliver crystal-clear entertainment on any <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">connected screen</Link>.
+              From high-bitrate 60FPS <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live sports streams</Link> to real-time 7-day EPG schedules, IPTV Map is built on an enterprise edge CDN to permanently eliminate buffering and deliver crisp 4K entertainment to every <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported device</Link>.
             </p>
           </div>
         )}
@@ -108,7 +108,7 @@ export default function FeaturesSection({ showComparison = true, hideHeader = fa
                 Side-by-Side Comparison
               </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-white font-heading mt-1">
-                How VixeoTV IPTV Compares to Cable and Generic IPTV Providers
+                How IPTV Map Compares to Cable and Generic IPTV Providers
               </h3>
             </div>
 
@@ -118,7 +118,7 @@ export default function FeaturesSection({ showComparison = true, hideHeader = fa
                   <tr className="border-b border-white/10 text-white">
                     <th className="py-3 px-3 font-semibold text-slate-300">Feature</th>
                     <th className="py-3 px-3 font-black text-brand-primary bg-brand-primary/10 rounded-t-xl">
-                      VixeoTV
+                      IPTV Map
                     </th>
                     <th className="py-3 px-3 font-semibold text-slate-300">Cable TV</th>
                     <th className="py-3 px-3 font-semibold text-slate-300">Generic IPTV</th>
@@ -129,7 +129,7 @@ export default function FeaturesSection({ showComparison = true, hideHeader = fa
                     <tr key={idx} className="hover:bg-white/[0.02] transition-colors">
                       <td className="py-3.5 px-3 font-medium text-white">{row.feature}</td>
                       <td className="py-3.5 px-3 font-bold text-brand-primary bg-brand-primary/5">
-                        {row.vixeo}
+                        {row.iptvmap}
                       </td>
                       <td className="py-3.5 px-3 text-slate-300">{row.traditionalCable}</td>
                       <td className="py-3.5 px-3 text-slate-300">{row.genericIptv}</td>
@@ -141,14 +141,14 @@ export default function FeaturesSection({ showComparison = true, hideHeader = fa
 
             <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
               <div>
-                <h3 className="text-sm font-bold text-white">Ready to upgrade your home entertainment with VixeoTV IPTV?</h3>
+                <h3 className="text-sm font-bold text-white">Ready to upgrade your home entertainment with IPTV Map?</h3>
                 <p className="text-xs text-slate-300">Experience buffer-free 4K streaming with <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-white/20">instant activation</Link> and 24/7 dedicated <Link href="/support" className="text-brand-primary hover:underline">WhatsApp support</Link>.</p>
               </div>
               <Link
                 href="/pricing"
                 className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold bg-brand-primary text-brand-bg hover:shadow-glow-primary transition-all"
               >
-                <span>Explore VixeoTV IPTV Plans</span>
+                <span>Explore IPTV Map Plans</span>
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>

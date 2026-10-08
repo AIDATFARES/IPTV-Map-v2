@@ -1,12 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
   <defs>
-    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00D4FF" />
-      <stop offset="100%" stop-color="#7928CA" />
+    <linearGradient id="favTvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E599" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="favPlayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E599" />
+      <stop offset="100%" stop-color="#60A5FA" />
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="16" fill="#0E131F" />
-  <rect x="2" y="2" width="60" height="60" rx="14" stroke="url(#favGrad)" stroke-width="3" />
-  <path d="M16 18 L30 46 C31 48 33 48 34 46 L48 18 L40 18 L32 36 L24 18 Z" fill="url(#favGrad)" />
-  <polygon points="29,26 38,31 29,36" fill="#FFFFFF" />
+
+  <!-- Antenna Left -->
+  <line x1="25" y1="17" x2="16" y2="6" stroke="url(#favTvGrad)" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="16" cy="6" r="2.2" fill="#00E599" />
+
+  <!-- Antenna Right -->
+  <line x1="39" y1="17" x2="48" y2="6" stroke="url(#favTvGrad)" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="48" cy="6" r="2.2" fill="#00E599" />
+
+  <!-- TV Stand Feet -->
+  <line x1="19" y1="51" x2="13" y2="59" stroke="url(#favTvGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="45" y1="51" x2="51" y2="59" stroke="url(#favTvGrad)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- TV Body Frame -->
+  <rect x="7" y="16" width="50" height="36" rx="9" fill="#0B1320" stroke="url(#favTvGrad)" stroke-width="2.5" />
+
+  <!-- TV Screen -->
+  <rect x="12" y="21" width="40" height="26" rx="5" fill="#060B12" />
+
+  <!-- Screen Play Button -->
+  <polygon points="29,28 29,40 40,34" fill="url(#favPlayGrad)" />
+
+  <!-- Power Dot -->
+  <circle cx="51" cy="47" r="1.5" fill="#00E599" />
 </svg>

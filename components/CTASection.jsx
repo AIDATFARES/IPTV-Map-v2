@@ -3,12 +3,12 @@ import { ChevronRight, MessageCircle, ShieldCheck, Zap } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export default function CTASection({
-  title = 'Ready to Experience Buffer-Free 4K Streaming with VixeoTV IPTV?',
+  title = 'Ready to Experience Buffer-Free 4K Streaming with IPTV Map?',
   subtitle
 }) {
   const defaultSubtitle = (
     <>
-      Activate your VixeoTV <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription</Link> in under 5 minutes with our step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">installation guides</Link> and 24/7 dedicated <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">WhatsApp support team</Link>.
+      Activate your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV Map subscription</Link> in under 5 minutes with our step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">installation guides</Link> and 24/7 dedicated <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">WhatsApp support team</Link>.
     </>
   );
 
@@ -23,7 +23,7 @@ export default function CTASection({
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/25 text-xs font-semibold text-brand-primary mb-6">
             <Zap className="w-3.5 h-3.5 text-brand-primary" />
-            <span>Instant VixeoTV IPTV Activation</span>
+            <span>Instant IPTV Map Activation</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white max-w-3xl mx-auto mb-5 tracking-tight">
@@ -42,7 +42,7 @@ export default function CTASection({
               {/* Continuous Light Sweep Flare */}
               <span className="absolute inset-0 w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent pointer-events-none animate-shimmer-sweep" />
 
-              <span className="relative z-10">View VixeoTV IPTV Plans</span>
+              <span className="relative z-10">View IPTV Map Plans</span>
               <ChevronRight className="w-5 h-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
 

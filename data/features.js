@@ -4,7 +4,7 @@ export const featureList = [
     title: '4K Ultra HD & 60FPS IPTV Streams',
     category: 'Streaming Quality',
     shortDesc: 'Crystal-clear picture clarity with advanced H.265 / HEVC compression.',
-    description: 'Experience live sports and blockbuster cinema in breathtaking detail. VixeoTV IPTV delivers high-bitrate streams with vibrant color clarity and adaptive resolution support up to 4K UHD.',
+    description: 'Experience live sports and blockbuster cinema in breathtaking detail. IPTV Map delivers high-bitrate streams with vibrant color clarity and adaptive resolution support up to 4K UHD.',
     icon: 'Tv'
   },
   {
@@ -20,7 +20,7 @@ export const featureList = [
     title: 'Dynamic Electronic Program Guide (EPG)',
     category: 'User Experience',
     shortDesc: 'Always stay informed with 7-day interactive broadcast schedules.',
-    description: 'Easily explore live programming schedules up to 7 days in advance. VixeoTV IPTV automatically synchronizes real-time channel metadata across your favorite IPTV players.',
+    description: 'Easily explore live programming schedules up to 7 days in advance. IPTV Map automatically synchronizes real-time channel metadata across your favorite IPTV players.',
     icon: 'Calendar'
   },
   {
@@ -28,7 +28,7 @@ export const featureList = [
     title: 'Universal IPTV Device Compatibility',
     category: 'Device Ecosystem',
     shortDesc: 'Stream effortlessly across Firestick, Android TV, Apple TV, Smart TVs, and PCs.',
-    description: 'Enjoy complete multi-device freedom. Configure VixeoTV IPTV on Amazon Firestick, Android TV boxes, Samsung and LG Smart TVs, Apple devices, MAG boxes, or PC media players.',
+    description: 'Enjoy complete multi-device freedom. Configure IPTV Map on Amazon Firestick, Android TV boxes, Samsung and LG Smart TVs, Apple devices, MAG boxes, or PC media players.',
     icon: 'Laptop'
   },
   {
@@ -36,7 +36,7 @@ export const featureList = [
     title: 'Rapid IPTV Account Provisioning',
     category: 'Activation & Access',
     shortDesc: 'Receive your server address, username, and login credentials right away.',
-    description: 'Start streaming your favorite channels in under 5 minutes. Upon order confirmation, VixeoTV generates your secure M3U playlist URL and Xtream Codes API credentials instantly.',
+    description: 'Start streaming your favorite channels in under 5 minutes. Upon order confirmation, IPTV Map generates your secure M3U playlist URL and Xtream Codes API credentials instantly.',
     icon: 'Clock'
   },
   {
@@ -68,31 +68,31 @@ export const featureList = [
 export const featureComparison = [
   {
     feature: 'Stream Resolution',
-    vixeo: 'Up to 4K Ultra HD & 60FPS',
+    iptvmap: 'Up to 4K Ultra HD & 60FPS',
     traditionalCable: 'Standard HD (720p/1080i)',
     genericIptv: 'Compressed 720p with stutter'
   },
   {
     feature: 'Hardware Required',
-    vixeo: 'Your existing device (Firestick, Smart TV, etc.)',
+    iptvmap: 'Your existing device (Firestick, Smart TV, etc.)',
     traditionalCable: 'Proprietary costly cable box & rental fees',
     genericIptv: 'Complex manual configurations'
   },
   {
     feature: 'Contracts & Commitments',
-    vixeo: 'Zero contracts (Month-to-month or custom)',
+    iptvmap: 'Zero contracts (Month-to-month or custom)',
     traditionalCable: '12 to 24 month binding contracts',
     genericIptv: 'Unreliable one-off resellers'
   },
   {
     feature: 'Setup Time',
-    vixeo: 'Under 5 minutes via WhatsApp or Guide',
+    iptvmap: 'Under 5 minutes via WhatsApp or Guide',
     traditionalCable: 'Days waiting for technician appointment',
     genericIptv: 'Hours searching for broken links'
   },
   {
     feature: 'Direct WhatsApp Support',
-    vixeo: 'Yes (Live 24/7 Desk)',
+    iptvmap: 'Yes (Live 24/7 Desk)',
     traditionalCable: 'Endless automated phone queues',
     genericIptv: 'No real support or dead emails'
   }

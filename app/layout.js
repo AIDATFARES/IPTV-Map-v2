@@ -9,14 +9,14 @@ import { siteConfig } from '@/data/siteConfig';
 export const metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: 'VixeoTV — Premium IPTV Service | 4K Ultra HD & 60FPS Live Streams',
-    template: '%s',
+    default: 'IPTV Map — #1 Worldwide IPTV Service | 50,000+ 4K Channels & 200,000+ VOD',
+    template: '%s | IPTV Map',
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  authors: [{ name: 'VixeoTV Technical Team', url: siteConfig.domain }],
-  creator: 'VixeoTV',
-  publisher: 'VixeoTV',
+  authors: [{ name: 'IPTV Map Engineering Team', url: siteConfig.domain }],
+  creator: 'IPTV Map',
+  publisher: 'IPTV Map',
   formatDetection: {
     email: false,
     address: false,
@@ -29,29 +29,36 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: siteConfig.domain,
-    siteName: 'VixeoTV',
-    title: 'VixeoTV — Premium IPTV Service | 4K Ultra HD & 60FPS Live Streams',
+    siteName: 'IPTV Map',
+    title: 'IPTV Map — #1 Worldwide IPTV Service | 50,000+ 4K Channels & 200,000+ VOD',
     description: siteConfig.description,
     images: [
       {
         url: `${siteConfig.domain}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'VixeoTV - Premium Ultra HD IPTV Service',
+        alt: 'IPTV Map — 50,000+ Live Channels & 200,000+ VOD Movies 4K Subscription',
         type: 'image/jpeg',
       },
       {
         url: `${siteConfig.domain}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: 'VixeoTV - Premium Ultra HD IPTV Service',
+        alt: 'IPTV Map Worldwide 4K Streaming Network Infrastructure',
         type: 'image/png',
+      },
+      {
+        url: `${siteConfig.domain}/og-image.svg`,
+        width: 1200,
+        height: 630,
+        alt: 'IPTV Map Worldwide 4K Streaming Network Vector Banner',
+        type: 'image/svg+xml',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VixeoTV — Premium IPTV Service | 4K Ultra HD & 60FPS Live Streams',
+    title: 'IPTV Map — #1 Worldwide IPTV Service | 50,000+ 4K Channels & 200,000+ VOD',
     description: siteConfig.description,
     images: [`${siteConfig.domain}/og-image.jpg`],
   },
@@ -68,13 +75,16 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: '/images/vixeo-icon.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/logo-icon.svg', type: 'image/svg+xml' }
+      { url: '/icon-32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/icon-48.png', type: 'image/png', sizes: '48x48' },
+      { url: '/logo-icon.png', type: 'image/png', sizes: '512x512' },
     ],
     apple: [
-      { url: '/images/vixeo-icon.png' }
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
+    shortcut: '/favicon.ico',
   },
 };
 
@@ -85,7 +95,14 @@ export default function RootLayout({ children }) {
     name: siteConfig.name,
     legalName: siteConfig.name,
     url: siteConfig.domain,
-    logo: `${siteConfig.domain}/logo.svg`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteConfig.domain}/logo.svg`,
+      contentUrl: `${siteConfig.domain}/logo.svg`,
+      width: 512,
+      height: 512,
+      caption: 'IPTV Map Official Brand Logo',
+    },
     description: siteConfig.description,
     contactPoint: {
       '@type': 'ContactPoint',
@@ -107,6 +124,10 @@ export default function RootLayout({ children }) {
       logo: {
         '@type': 'ImageObject',
         url: `${siteConfig.domain}/logo.svg`,
+        contentUrl: `${siteConfig.domain}/logo.svg`,
+        width: 512,
+        height: 512,
+        caption: 'IPTV Map Official Brand Logo',
       },
     },
   };

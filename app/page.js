@@ -15,8 +15,8 @@ import { siteConfig } from '@/data/siteConfig';
 import { faqs } from '@/data/faq';
 
 export const metadata = {
-  title: 'VixeoTV — Premium IPTV Service | 4K Ultra HD & 60FPS Live Streams',
-  description: 'VixeoTV delivers ultra-fast, buffer-free 4K IPTV streaming. Watch live sports, international TV channels, and 4K VOD on Firestick, Smart TVs, Android, and Apple.',
+  title: 'IPTV Map — #1 Worldwide IPTV Service | 50,000+ 4K Channels & 200,000+ VOD',
+  description: 'Stream live sports, international TV networks, and 200,000+ 4K movies without buffering. IPTV Map provides 50,000+ channels, instant activation, and 24/7 dedicated support.',
   alternates: {
     canonical: siteConfig.domain,
   },
@@ -26,7 +26,7 @@ export default function HomePage() {
   const serviceSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name: 'VixeoTV Premium Streaming Service',
+    name: 'IPTV Map Premium Streaming Service',
     serviceType: 'IPTV Streaming',
     provider: {
       '@type': 'Organization',
@@ -37,7 +37,7 @@ export default function HomePage() {
     areaServed: 'Worldwide',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'VixeoTV Subscription Plans',
+      name: 'IPTV Map Subscription Plans',
       itemListElement: [
         {
           '@type': 'Offer',
@@ -87,45 +87,48 @@ export default function HomePage() {
                 <Zap className="w-5 h-5" />
               </div>
               <span className="text-white font-bold text-sm sm:text-base font-heading">Anti-Freeze v2.0 IPTV</span>
-              <span className="text-slate-300 font-medium text-xs">Proprietary Stream Balancing</span>
+              <span className="text-slate-300 font-medium text-xs">Zero-Buffering Stream Balancing</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-10 h-10 rounded-xl bg-brand-primary/10 text-brand-primary flex items-center justify-center mb-2">
                 <Tv className="w-5 h-5" />
               </div>
               <span className="text-white font-bold text-sm sm:text-base font-heading">4K &amp; Full HD IPTV</span>
-              <span className="text-slate-300 font-medium text-xs">H.265 / HEVC 60FPS Feeds</span>
+              <span className="text-slate-300 font-medium text-xs">Native 60FPS Sports Feeds</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-10 h-10 rounded-xl bg-brand-primary/10 text-brand-primary flex items-center justify-center mb-2">
                 <Clock className="w-5 h-5" />
               </div>
-              <span className="text-white font-bold text-sm sm:text-base font-heading">Fast IPTV Activation</span>
-              <span className="text-slate-300 font-medium text-xs">Xtream Credentials in Minutes</span>
+              <span className="text-white font-bold text-sm sm:text-base font-heading">Instant IPTV Activation</span>
+              <span className="text-slate-300 font-medium text-xs">Xtream &amp; M3U in Under 5 Mins</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-10 h-10 rounded-xl bg-brand-primary/10 text-brand-primary flex items-center justify-center mb-2">
                 <ShieldCheck className="w-5 h-5" />
               </div>
               <span className="text-white font-bold text-sm sm:text-base font-heading">24/7 IPTV Support</span>
-              <span className="text-slate-300 font-medium text-xs">Direct WhatsApp Helpdesk</span>
+              <span className="text-slate-300 font-medium text-xs">Dedicated WhatsApp Engineers</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. How It Works (3 Simple Steps) */}
-      <section className="py-20 md:py-24 bg-brand-bg relative overflow-hidden border-b border-white/5">
+      {/* 3. Pricing Section */}
+      <PricingSection />
+
+      {/* 4. How It Works (3 Simple Steps) */}
+      <section className="py-20 md:py-24 bg-brand-bg relative overflow-hidden border-t border-b border-white/5">
         <div className="container mx-auto px-4 sm:px-6 max-w-7xl relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/20 mb-3 font-heading">
-              Effortless IPTV Setup
+              FAST 3-STEP ONBOARDING
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4">
-              How VixeoTV IPTV Works in 3 Easy Steps
+              How to Start Streaming With IPTV Map in 3 Simple Steps
             </h2>
             <p className="text-brand-text-secondary text-base">
-              Getting started with your VixeoTV <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription</Link> is fast and effortless. Go from choosing your plan to streaming high-definition <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live channels</Link> in under 5 minutes.
+              Setting up your IPTV Map <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription</Link> is seamless. From picking your plan to watching crystal-clear <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live IPTV channels</Link> and 4K sports, you will be streaming in under 5 minutes.
             </p>
           </div>
 
@@ -135,12 +138,12 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-xl bg-brand-primary/10 border border-brand-primary/30 text-brand-primary font-black font-heading text-lg flex items-center justify-center mb-5">
                 01
               </div>
-              <h3 className="text-xl font-bold font-heading text-white mb-3">Choose Your IPTV Plan</h3>
+              <h3 className="text-xl font-bold font-heading text-white mb-3">Select Your IPTV Map Plan</h3>
               <p className="text-sm text-brand-text-secondary leading-relaxed mb-4">
-                Select your ideal VixeoTV <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription duration</Link> and required simultaneous connections with transparent pricing and no hidden contracts.
+                Pick the ideal <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plan</Link> for your household with flexible durations, multi-device connections, transparent pricing, and zero long-term commitments.
               </p>
               <Link href="/pricing" className="text-xs font-bold text-brand-primary hover:underline flex items-center gap-1">
-                <span>View IPTV Plans</span>
+                <span>View IPTV Subscription Plans</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
@@ -152,7 +155,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold font-heading text-white mb-3">Receive Instant IPTV Credentials</h3>
               <p className="text-sm text-brand-text-secondary leading-relaxed mb-4">
-                Within minutes of confirming your order, receive your secure M3U playlist link and Xtream Codes API login credentials directly via email or <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">24/7 WhatsApp helpdesk</Link>.
+                Within minutes of confirming your order, receive your secure Xtream Codes API login and M3U playlist URL delivered directly via email and our <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">24/7 WhatsApp helpdesk</Link>.
               </p>
               <a href={siteConfig.whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-emerald-400 hover:underline flex items-center gap-1">
                 <span>Instant WhatsApp Support</span>
@@ -165,9 +168,9 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-xl bg-brand-primary/10 border border-brand-primary/30 text-brand-primary font-black font-heading text-lg flex items-center justify-center mb-5">
                 03
               </div>
-              <h3 className="text-xl font-bold font-heading text-white mb-3">Configure Your Device &amp; Stream</h3>
+              <h3 className="text-xl font-bold font-heading text-white mb-3">Connect Your Device &amp; Stream in 4K</h3>
               <p className="text-sm text-brand-text-secondary leading-relaxed mb-4">
-                Follow our simple step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">installation guides</Link> for your Smart TV, Firestick, or mobile device, enter your credentials, and start watching via our <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported device ecosystem</Link>.
+                Follow our simple <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device installation guides</Link> for Firestick, Smart TVs, Android, or Apple TV, enter your credentials, and enjoy uninterrupted live entertainment on your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported streaming screens</Link>.
               </p>
               <Link href="/setup" className="text-xs font-bold text-brand-primary hover:underline flex items-center gap-1">
                 <span>Browse IPTV Setup Guides</span>
@@ -177,9 +180,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* 4. Pricing Section */}
-      <PricingSection />
 
       {/* 5. Entertainment & Channel Lineup Section */}
       <ChannelsSection />
@@ -195,13 +195,13 @@ export default function HomePage() {
         <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
           <div className="text-center max-w-3xl mx-auto mb-14">
             <span className="inline-block px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/20 mb-3 font-heading">
-              VixeoTV Knowledge Base
+              IPTV Map Knowledge Base
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4">
-              Frequently Asked Questions About VixeoTV IPTV
+              Frequently Asked Questions About IPTV Map IPTV Service
             </h2>
             <p className="text-brand-text-secondary text-base">
-              Find answers to common questions regarding <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">VixeoTV IPTV subscriptions</Link>, compatible <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">streaming devices</Link>, connection speeds, and <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup steps</Link>.
+              Find instant, authoritative answers about our <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plans</Link>, compatible <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">streaming devices</Link>, broadband speed requirements, and quick <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV installation steps</Link>.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ export default function HomePage() {
               href="/faq"
               className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-brand-primary hover:underline"
             >
-              <span>Explore Complete VixeoTV IPTV FAQ Directory</span>
+              <span>Explore Complete IPTV Map FAQ Directory</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

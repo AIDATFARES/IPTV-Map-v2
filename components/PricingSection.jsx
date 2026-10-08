@@ -22,13 +22,13 @@ export default function PricingSection({ hideHeader = false }) {
         {!hideHeader && (
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="inline-block px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-primary/10 text-brand-primary border border-brand-primary/20 mb-3 font-heading">
-              Transparent IPTV Subscription Plans
+              TRANSPARENT IPTV PRICING
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black font-heading text-white mb-4">
-              Choose Your VixeoTV IPTV Plan: Instant 4K Streaming Access
+              Choose Your IPTV Map Subscription Plan: Instant 4K Streaming Access
             </h2>
             <p className="text-brand-text-secondary text-base sm:text-lg">
-              All VixeoTV IPTV plans include high-definition <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">4K &amp; Full HD channels</Link>, comprehensive electronic program guides (EPG), proprietary <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Anti-Freeze v2.0 load balancing</Link>, and dedicated 24/7 WhatsApp <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">customer care</Link>. Zero hidden fees, zero surprise rebills.
+              Select your ideal IPTV Map subscription plan with complete peace of mind. Every package includes over 50,000 <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">4K &amp; Full HD IPTV channels</Link>, 200,000+ on-demand movies &amp; series, interactive 7-day EPG schedules, proprietary <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Anti-Freeze v2.0 stream balancing</Link>, and 24/7 dedicated <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">WhatsApp support</Link>. Zero hidden contracts, zero surprise renewal fees.
             </p>
           </div>
         )}
@@ -36,7 +36,7 @@ export default function PricingSection({ hideHeader = false }) {
         {/* Multi-Device Connection Selector Tabs */}
         <div className="flex flex-col items-center justify-center mb-12">
           <span className="text-xs font-bold text-slate-200 uppercase tracking-wider mb-3">
-            Select Number of Simultaneous Device Connections:
+            Select Simultaneous Device Connections:
           </span>
           <div className="inline-flex p-1.5 rounded-2xl bg-brand-bg-secondary border border-white/10 max-w-full overflow-x-auto">
             {connectionOptions.map((opt) => (
@@ -66,7 +66,7 @@ export default function PricingSection({ hideHeader = false }) {
             const isPopular = plan.popular;
 
             const whatsappUrl = `${siteConfig.whatsappUrl}?text=${encodeURIComponent(
-              `Hello VixeoTV support, I would like to order the ${plan.name} Plan (${selectedConnections} Device${selectedConnections > 1 ? 's' : ''}) for $${calculatedPrice}.`
+              `Hello IPTV Map support, I would like to order the ${plan.name} Plan (${selectedConnections} Device${selectedConnections > 1 ? 's' : ''}) for $${calculatedPrice}.`
             )}`;
 
             return (
@@ -197,8 +197,9 @@ export default function PricingSection({ hideHeader = false }) {
         <div className="mt-8 flex flex-col items-center justify-center">
           <div className="bg-white rounded-2xl p-3 sm:p-4 shadow-xl border border-white/10 max-w-lg w-full flex items-center justify-center transition-transform duration-300 hover:scale-[1.01]">
             <Image
-              src="/images/safe-checkout.webp"
-              alt="Guaranteed Safe Checkout - VixeoTV Accepted Payment Methods"
+              src="/images/iptvmap-safe-checkout-guarantee.webp"
+              alt="Guaranteed 256-Bit SSL Encrypted Safe Checkout - IPTV Map Verified Payment Gateways"
+              title="IPTV Map Guaranteed Safe Checkout & Money-Back Guarantee"
               width={600}
               height={139}
               className="w-full h-auto max-w-[480px] object-contain"

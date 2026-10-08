@@ -8,13 +8,14 @@ export default function Hero() {
     <section className="relative pt-[70px] pb-10 sm:pt-[74px] sm:pb-14 lg:pt-[78px] lg:pb-16 bg-brand-bg overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
         {/* Main Hero Card Container */}
-        <div className="relative rounded-[28px] sm:rounded-[36px] overflow-hidden border border-white/10 bg-[#0E131F] shadow-2xl min-h-[580px] lg:min-h-[640px] flex items-center">
+        <div className="relative rounded-[28px] sm:rounded-[36px] overflow-hidden border border-white/10 bg-[#0B1320] shadow-2xl min-h-[580px] lg:min-h-[640px] flex items-center">
           
           {/* Background Image: Couple on couch watching TV */}
           <div className="absolute inset-0 z-0">
             <Image
-              src="/images/hero-couple-couch.jpg"
-              alt="Streamers enjoying VixeoTV on their living room TV"
+              src="/images/iptvmap-hero-home-streaming.jpg"
+              alt="Streamers enjoying IPTV Map 4K Ultra HD worldwide entertainment in living room with Anti-Freeze v2.0"
+              title="IPTV Map Home Streaming Experience"
               fill
               priority
               fetchPriority="high"
@@ -23,9 +24,9 @@ export default function Hero() {
               className="object-cover object-center sm:object-right opacity-35 lg:opacity-45"
             />
             {/* Rich gradient overlays for ultra-high contrast and readability */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#080B11] via-[#080B11]/95 to-transparent sm:via-[#080B11]/85 lg:via-[#080B11]/75" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#080B11] via-transparent to-transparent opacity-80" />
-            <div className="absolute top-0 left-0 w-96 h-96 bg-brand-primary/10 blur-3xl pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#060B12] via-[#060B12]/95 to-transparent sm:via-[#060B12]/85 lg:via-[#060B12]/75" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#060B12] via-transparent to-transparent opacity-80" />
+            <div className="absolute top-0 left-0 w-96 h-96 bg-brand-primary/15 blur-3xl pointer-events-none" />
           </div>
 
           {/* Foreground Grid Content */}
@@ -35,30 +36,31 @@ export default function Hero() {
             <div className="lg:col-span-7 max-w-2xl">
               {/* Eyebrow */}
               <div className="mb-3">
-                <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-brand-primary font-heading">
-                  PREMIUM IPTV SUBSCRIPTION &amp; 4K STREAMING
+                <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-brand-primary font-heading flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-brand-primary animate-ping" />
+                  IPTV MAP — PREMIUM 4K IPTV STREAMING SERVICE
                 </span>
               </div>
 
               {/* Main Heading */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-[56px] font-black font-heading text-white tracking-tight leading-[1.12] mb-5">
-                VixeoTV – <br className="hidden sm:inline" />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-primary-light to-brand-primary">
-                  The Premier IPTV Provider
+                IPTV Map — <br className="hidden sm:inline" />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-emerald-300 to-brand-primary">
+                  Premium 4K IPTV Service
                 </span>{' '}
                 <br className="hidden lg:inline" />
-                <span>for the USA, Canada, and Europe.</span>
+                <span>for Live Sports, Global TV &amp; Movies.</span>
               </h1>
 
               {/* Sub-headline */}
               <p className="text-sm sm:text-base text-brand-text-secondary font-medium mb-6">
-                VixeoTV delivers the complete <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live streaming channels</Link> and on-demand entertainment package across your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">favorite devices</Link>.
+                Experience buffer-free IPTV streaming with IPTV Map. Access over 50,000 <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live IPTV channels</Link>, premier 60FPS sports, and 200,000+ on-demand movies &amp; series powered by Anti-Freeze v2.0 technology across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">favorite streaming devices</Link>.
               </p>
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 mb-3.5">
                 <a
-                  href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello VixeoTV, I would like to request a free trial.')}`}
+                  href={`${siteConfig.whatsappUrl}?text=${encodeURIComponent('Hello IPTV Map, I would like to request a free trial.')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative overflow-hidden inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full text-sm sm:text-base font-black bg-[#25D366] hover:bg-[#20bd5a] text-slate-950 shadow-[0_0_25px_rgba(37,211,102,0.45)] hover:shadow-[0_0_35px_rgba(37,211,102,0.7)] transition-all duration-300 hover:scale-[1.03] active:scale-95 animate-pulse-glow-btn"
@@ -79,7 +81,7 @@ export default function Hero() {
 
                 <Link
                   href="/pricing"
-                  className="group relative overflow-hidden inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full text-sm sm:text-base font-bold bg-white/10 hover:bg-white/15 text-white border border-white/10 transition-all duration-300 hover:border-brand-primary/40 hover:shadow-[0_0_25px_rgba(0,212,255,0.2)] hover:scale-[1.02] active:scale-95"
+                  className="group relative overflow-hidden inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full text-sm sm:text-base font-bold bg-white/10 hover:bg-white/15 text-white border border-white/10 transition-all duration-300 hover:border-brand-primary/40 hover:shadow-[0_0_25px_rgba(0,229,153,0.25)] hover:scale-[1.02] active:scale-95"
                 >
                   {/* Subtle hover light sheen */}
                   <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out pointer-events-none" />
@@ -114,7 +116,7 @@ export default function Hero() {
               <div className="relative w-full max-w-md sm:max-w-lg lg:max-w-none">
                 
                 {/* 1. Large Television Display in Background */}
-                <div className="relative rounded-2xl sm:rounded-3xl bg-[#090C12] border-2 border-white/15 p-2 shadow-2xl overflow-hidden">
+                <div className="relative rounded-2xl sm:rounded-3xl bg-[#080E1A] border-2 border-white/15 p-2 shadow-2xl overflow-hidden">
                   {/* Top-Right Quality Badge */}
                   <div className="absolute top-4 right-4 z-20">
                     <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-black uppercase tracking-wider bg-black/80 text-brand-primary border border-brand-primary/40 backdrop-blur-md">
@@ -125,8 +127,9 @@ export default function Hero() {
                   {/* TV Screen Content */}
                   <div className="relative aspect-[16/10] rounded-xl overflow-hidden bg-slate-900">
                     <Image
-                      src="/images/hero-tv-show.jpg"
-                      alt="4K Action Series on TV"
+                      src="/images/iptvmap-hero-tv-entertainment.jpg"
+                      alt="IPTV Map 4K Action Series and Live Television Stream on Big Screen TV"
+                      title="IPTV Map Smart TV Streaming"
                       fill
                       sizes="(max-width: 768px) 100vw, 500px"
                       className="object-cover"
@@ -138,7 +141,7 @@ export default function Hero() {
                         Action Series
                       </span>
                       <p className="text-sm sm:text-base font-black text-white font-heading mt-1 drop-shadow">
-                        VIXEO CINEMA 4K
+                        IPTV MAP CINEMA 4K
                       </p>
                     </div>
                   </div>
@@ -148,11 +151,12 @@ export default function Hero() {
                 <div className="relative -mt-16 sm:-mt-20 z-20 flex items-end justify-between gap-2 px-2">
                   
                   {/* Open Laptop */}
-                  <div className="w-[45%] rounded-xl bg-[#0C1017] border border-white/20 p-1.5 shadow-2xl backdrop-blur-md transform -rotate-1 hover:rotate-0 transition-transform duration-300">
+                  <div className="w-[45%] rounded-xl bg-[#091222] border border-white/20 p-1.5 shadow-2xl backdrop-blur-md transform -rotate-1 hover:rotate-0 transition-transform duration-300">
                     <div className="relative aspect-video rounded-lg overflow-hidden bg-slate-950">
                       <Image
-                        src="/images/hero-sports.jpg"
-                        alt="Live Football Stadium on Laptop"
+                        src="/images/iptvmap-hero-sports-stadium.jpg"
+                        alt="IPTV Map Live Premier League Football Stadium Match at 60FPS on Laptop"
+                        title="IPTV Map Multi-Screen Sports Streaming"
                         fill
                         sizes="(max-width: 768px) 50vw, 250px"
                         className="object-cover"
@@ -169,11 +173,12 @@ export default function Hero() {
                   </div>
 
                   {/* Tablet in Center */}
-                  <div className="w-[30%] rounded-xl bg-[#0C1017] border border-white/20 p-1 shadow-2xl transform translate-y-1 hover:translate-y-0 transition-transform duration-300">
+                  <div className="w-[30%] rounded-xl bg-[#091222] border border-white/20 p-1 shadow-2xl transform translate-y-1 hover:translate-y-0 transition-transform duration-300">
                     <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-slate-950">
                       <Image
-                        src="/images/hero-cinema.jpg"
-                        alt="Movies on Tablet"
+                        src="/images/iptvmap-hero-cinema-display.jpg"
+                        alt="IPTV Map Cinema Showcase and Trending Movies Playing on Tablet Device"
+                        title="IPTV Map Cinema On-Demand"
                         fill
                         sizes="(max-width: 768px) 30vw, 160px"
                         className="object-cover"
@@ -188,20 +193,21 @@ export default function Hero() {
                   </div>
 
                   {/* Smartphone on Right */}
-                  <div className="w-[20%] rounded-xl bg-[#0C1017] border border-white/25 p-1 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-300">
+                  <div className="w-[20%] rounded-xl bg-[#091222] border border-white/25 p-1 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-300">
                     <div className="relative aspect-[9/18] rounded-lg overflow-hidden bg-slate-950 flex flex-col justify-between p-1">
                       <div className="w-4 h-1 bg-white/20 rounded-full mx-auto mb-1" />
                       <div className="relative flex-1 rounded overflow-hidden">
                         <Image
-                          src="/images/hero-tv-show.jpg"
-                          alt="Mobile App View"
+                          src="/images/iptvmap-hero-tv-entertainment.jpg"
+                          alt="IPTV Map Mobile Smartphone Streaming Interface with Xtream Codes"
+                          title="IPTV Map Mobile App Streaming"
                           fill
                           sizes="(max-width: 768px) 20vw, 100px"
                           className="object-cover"
                         />
                       </div>
                       <span className="text-[7px] text-center text-brand-primary font-bold mt-0.5">
-                        Vixeo App
+                        IPTV Map
                       </span>
                     </div>
                   </div>
@@ -209,7 +215,7 @@ export default function Hero() {
 
                 {/* 3. Floating Vibrant Price Pill Badge */}
                 <div className="absolute top-1/2 -left-3 sm:-left-6 -translate-y-1/2 z-30 animate-in fade-in zoom-in-95 duration-500">
-                  <div className="rounded-2xl bg-gradient-to-br from-brand-primary via-brand-primary-light to-brand-primary text-brand-bg p-4 sm:p-5 shadow-[0_12px_40px_rgba(0,212,255,0.5)] border border-white/30 transform -rotate-3 hover:rotate-0 transition-all duration-300 hover:scale-105">
+                  <div className="rounded-2xl bg-gradient-to-br from-brand-primary via-emerald-400 to-brand-primary text-brand-bg p-4 sm:p-5 shadow-[0_12px_40px_rgba(0,229,153,0.45)] border border-white/30 transform -rotate-3 hover:rotate-0 transition-all duration-300 hover:scale-105">
                     <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider block opacity-90">
                       Starting at
                     </span>
@@ -229,7 +235,7 @@ export default function Hero() {
                       <Check className="w-3.5 h-3.5 text-brand-bg stroke-[3.5]" />
                     </div>
                     <span className="text-xs sm:text-sm text-white font-medium">
-                      Thousands of <Link href="/channels" className="text-brand-primary hover:underline">live TV channels</Link> &amp; high-speed 4K VOD library
+                      Over 50,000 <Link href="/channels" className="text-brand-primary hover:underline">live IPTV channels</Link> &amp; massive 200,000+ 4K VOD library
                     </span>
                   </div>
 
@@ -238,7 +244,7 @@ export default function Hero() {
                       <Check className="w-3.5 h-3.5 text-brand-bg stroke-[3.5]" />
                     </div>
                     <span className="text-xs sm:text-sm text-white font-medium">
-                      Buffer-free Full HD &amp; 4K streams powered by <Link href="/features" className="text-brand-primary hover:underline">Anti-Freeze v2.0</Link>
+                      Buffer-free 4K &amp; Full HD streaming powered by <Link href="/features" className="text-brand-primary hover:underline">Anti-Freeze v2.0 IPTV technology</Link>
                     </span>
                   </div>
 
@@ -247,7 +253,7 @@ export default function Hero() {
                       <Check className="w-3.5 h-3.5 text-brand-bg stroke-[3.5]" />
                     </div>
                     <span className="text-xs sm:text-sm text-white font-medium">
-                      Global sports leagues, trending movies &amp; full <Link href="/channels" className="text-brand-primary hover:underline">EPG TV guide</Link>
+                      Worldwide live sports in 60FPS, PPV events &amp; interactive <Link href="/channels" className="text-brand-primary hover:underline">7-day EPG TV guide</Link>
                     </span>
                   </div>
                 </div>

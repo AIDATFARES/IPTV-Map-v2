@@ -6,8 +6,8 @@ import Link from 'next/link';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — Contact Customer Care | 24/7 Live WhatsApp Helpdesk',
-  description: 'Contact VixeoTV customer support directly via WhatsApp or email. Fast 24/7 technical setup help, account activation, and channel inquiries.',
+  title: 'IPTV Map — Contact Customer Care | 24/7 Live WhatsApp Helpdesk',
+  description: 'Contact IPTV Map customer support directly via WhatsApp or email. Fast 24/7 technical setup help, account activation, and channel inquiries.',
   alternates: {
     canonical: `${siteConfig.domain}/contact`,
   },
@@ -19,8 +19,8 @@ export default function ContactPage() {
   const contactPointSchema = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact VixeoTV Support',
-    description: 'Get in touch with VixeoTV customer care via WhatsApp or email for subscription help, player setup, and account questions.',
+    name: 'Contact IPTV Map Support',
+    description: 'Get in touch with IPTV Map customer care via WhatsApp or email for subscription help, player setup, and account questions.',
     url: `${siteConfig.domain}/contact`,
     mainEntity: {
       '@type': 'Organization',
@@ -49,10 +49,10 @@ export default function ContactPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="24/7 Dedicated IPTV Helpdesk"
+        badge="24/7 DEDICATED IPTV HELPDESK"
         title="We're Here to Help You"
-        titleAccent="Stream Smarter With VixeoTV"
-        description="Have a question about compatible IPTV players, playlist formats, or payment confirmation? Reach our support specialists directly on WhatsApp or submit your inquiry below."
+        titleAccent="Stream Smarter With IPTV Map"
+        description="Have a question about compatible IPTV players, playlist formats, or subscription activation? Reach our support specialists directly on WhatsApp or submit your inquiry below."
         breadcrumbs={breadcrumbs}
       />
 
@@ -63,7 +63,7 @@ export default function ContactPage() {
       </section>
 
       <CTASection
-        title="Ready to Start Streaming With VixeoTV IPTV?"
+        title="Ready to Start Streaming With IPTV Map?"
         subtitle={
           <>
             Browse our flexible <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription plans</Link> and experience buffer-free 4K <Link href="/channels" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">live TV and sports</Link> today.

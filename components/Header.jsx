@@ -72,7 +72,7 @@ export default function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 hover:bg-emerald-500/20 hover:border-emerald-500/40 transition-all"
-                aria-label="Contact VixeoTV support via WhatsApp"
+                aria-label="Contact IPTV Map support via WhatsApp"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-400" />
                 <span className="hidden md:inline">WhatsApp Help</span>

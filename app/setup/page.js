@@ -8,8 +8,8 @@ import { CheckCircle2, MessageCircle, ArrowRight, ShieldCheck, HelpCircle } from
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — IPTV Setup & Installation Hub | Step-by-Step Guides',
-  description: 'Step-by-step installation guides for VixeoTV IPTV. Configure Amazon Firestick, Android TV, Apple TV, Smart TVs, and MAG boxes with ease in under 5 minutes.',
+  title: 'IPTV Map — IPTV Setup & Installation Hub | Step-by-Step Guides',
+  description: 'Step-by-step installation guides for IPTV Map. Configure Amazon Firestick, Android TV, Apple TV, Smart TVs, and MAG boxes with ease in under 5 minutes.',
   alternates: {
     canonical: `${siteConfig.domain}/setup`,
   },
@@ -42,10 +42,10 @@ export default function SetupHubPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="VixeoTV IPTV Setup &amp; Installation Center"
-        title="Set Up Your VixeoTV IPTV Subscription in Under"
+        badge="IPTV MAP SETUP &amp; INSTALLATION HUB"
+        title="Set Up Your IPTV Map Subscription in Under"
         titleAccent="5 Minutes"
-        description="Select your streaming device below to follow our verified, step-by-step IPTV setup walkthroughs. From Amazon Firestick sideloading to Apple TV and Smart TV configuration, we make VixeoTV IPTV installation fast and effortless."
+        description="Select your streaming device below for our verified, step-by-step IPTV Map setup walkthroughs. From Amazon Firestick sideloading to Apple TV, Android TV, and Smart TV configuration, start streaming in under 5 minutes."
         breadcrumbs={breadcrumbs}
       />
 
@@ -54,7 +54,7 @@ export default function SetupHubPage() {
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
           <div className="rounded-2xl bg-brand-bg p-6 sm:p-8 border border-white/10">
             <h2 className="text-xl sm:text-2xl font-bold font-heading text-white mb-6">
-              Before You Begin: 3 Easy IPTV Prerequisites
+              Before You Begin: 3 Easy Steps to Prepare Your IPTV Stream
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -63,11 +63,11 @@ export default function SetupHubPage() {
                   1
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-white font-heading">Active VixeoTV IPTV Subscription</h3>
+                  <h3 className="text-sm font-bold text-white font-heading">Active IPTV Map Subscription</h3>
                   <p className="text-xs text-brand-text-secondary mt-1">
-                    Order your preferred subscription plan to receive your authorized login credentials.{' '}
+                    Choose your plan to receive your authorized login credentials and portal links.{' '}
                     <Link href="/pricing" className="text-brand-primary underline">
-                      View plans
+                      View subscription plans
                     </Link>
                   </p>
                 </div>
@@ -78,9 +78,9 @@ export default function SetupHubPage() {
                   2
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-white font-heading">IPTV Credentials &amp; Playlist Link</h3>
+                  <h3 className="text-sm font-bold text-white font-heading">Login Credentials &amp; M3U Playlist</h3>
                   <p className="text-xs text-brand-text-secondary mt-1">
-                    Check your welcome email or WhatsApp message for your Xtream Codes API URL, username, and M3U playlist. Need help? Check our <Link href="/support" className="text-brand-primary underline">support desk</Link>.
+                    Check your welcome email or WhatsApp delivery for your Xtream Codes API URL, username, and M3U playlist. Need help? Check our <Link href="/support" className="text-brand-primary underline">support desk</Link>.
                   </p>
                 </div>
               </div>
@@ -90,9 +90,9 @@ export default function SetupHubPage() {
                   3
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-white font-heading">Broadband Internet Connection</h3>
+                  <h3 className="text-sm font-bold text-white font-heading">High-Speed Broadband Internet</h3>
                   <p className="text-xs text-brand-text-secondary mt-1">
-                    Ensure a stable connection of at least 15 Mbps for Full HD or 30+ Mbps for 4K UHD streaming (5GHz Wi-Fi or Ethernet cable recommended) to avoid buffering with our <Link href="/features" className="text-brand-primary underline">Anti-Freeze engine</Link>.
+                    Ensure a stable connection of at least 15 Mbps for Full HD or 30+ Mbps for 4K UHD streaming (5GHz Wi-Fi or Ethernet recommended) to benefit from our <Link href="/features" className="text-brand-primary underline">Anti-Freeze engine</Link>.
                   </p>
                 </div>
               </div>
@@ -106,10 +106,10 @@ export default function SetupHubPage() {
         <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl font-black font-heading text-white mb-3">
-              Select Your Device for VixeoTV IPTV Setup
+              Select Your Device for Fast IPTV Map Setup
             </h2>
             <p className="text-sm text-brand-text-secondary">
-              Click your device below for tailored step-by-step instructions, player recommendations, and troubleshooting tips, or browse our <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices list</Link>:
+              Click your streaming device below for verified instructions, player recommendations, and troubleshooting tips, or browse our full <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices list</Link>:
             </p>
           </div>
 
@@ -124,10 +124,10 @@ export default function SetupHubPage() {
             <MessageCircle className="w-6 h-6" />
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-3">
-            Need Personalized VixeoTV IPTV Setup Assistance?
+            Need Real-Time IPTV Map Setup Help?
           </h2>
           <p className="text-sm text-brand-text-secondary max-w-xl mx-auto mb-6">
-            Our technical <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support engineers</Link> are available on WhatsApp to walk you through IPTV player configuration step-by-step in real time. You can also view our <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">troubleshooting FAQ</Link>.
+            Our technical <Link href="/support" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">support specialists</Link> are available 24/7 on WhatsApp to guide you through IPTV player configuration step-by-step. You can also review our <Link href="/faq" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">troubleshooting FAQ</Link>.
           </p>
           <a
             href={siteConfig.whatsappUrl}
@@ -149,7 +149,7 @@ export default function SetupHubPage() {
               IPTV Setup Troubleshooting
             </span>
             <h2 className="text-3xl font-black font-heading text-white mt-1">
-              Frequently Asked Questions About IPTV Installation
+              Frequently Asked Questions About IPTV Installation &amp; Player Setup
             </h2>
           </div>
           <FAQAccordion initialCategory="Setup" limit={4} />
@@ -157,10 +157,10 @@ export default function SetupHubPage() {
       </section>
 
       <CTASection
-        title="Ready to Experience Premium IPTV Streaming?"
+        title="Ready to Stream 4K Live Television With IPTV Map?"
         subtitle={
           <>
-            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe to VixeoTV IPTV now</Link>, receive your credentials instantly, and enjoy live sports and 4K cinema across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">supported devices</Link>.
+            <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Choose your IPTV Map plan now</Link>, receive instant activation credentials, and enjoy buffer-free sports and 4K cinema across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">favorite devices</Link>.
           </>
         }
       />

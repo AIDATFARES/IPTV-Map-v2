@@ -7,8 +7,8 @@ import { blogPosts, blogCategories } from '@/data/blogPosts';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — IPTV Blog & Streaming Guides | Tutorials & Reviews',
-  description: 'Expert IPTV tutorials, device setup walkthroughs, app comparisons, and buffering fixes. Learn how to optimize 4K streaming on Firestick, Smart TVs, and more.',
+  title: 'IPTV Map — Streaming Guides, Tutorials & Player Reviews',
+  description: 'Expert IPTV tutorials, device setup walkthroughs, app comparisons, and buffering fixes. Learn how to optimize 4K streaming with IPTV Map.',
   alternates: {
     canonical: `${siteConfig.domain}/blog`,
   },
@@ -39,7 +39,7 @@ export default function BlogIndexPage() {
   const blogCollectionSchema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'VixeoTV Streaming Blog & Setup Guides',
+    name: 'IPTV Map Streaming Blog & Setup Guides',
     description: 'Expert IPTV tutorials, device setups, player configurations, and troubleshooting guides.',
     url: `${siteConfig.domain}/blog`,
   };
@@ -50,10 +50,10 @@ export default function BlogIndexPage() {
       <JsonLd data={blogCollectionSchema} />
 
       <PageHeader
-        badge="Guides &amp; Technical Insights"
+        badge="IPTV MAP STREAMING GUIDES &amp; TUTORIALS"
         title="Streaming Mastery, Tutorials &amp; Player"
         titleAccent="Reviews"
-        description="Learn how to unlock the full potential of your streaming setup. Discover expert tutorials for Firestick, best IPTV players, buffering fixes, and 4K sports configuration."
+        description="Master modern IPTV streaming with IPTV Map. Discover step-by-step installation walkthroughs for Firestick and Smart TVs, best IPTV player reviews, anti-freeze buffering fixes, and 4K sports optimization tips."
         breadcrumbs={breadcrumbs}
       />
 
@@ -118,10 +118,10 @@ export default function BlogIndexPage() {
       </section>
 
       <CTASection
-        title="Put These Guides into Action"
+        title="Put These IPTV Guides into Action With IPTV Map"
         subtitle={
           <>
-            Experience smooth, buffer-free IPTV with VixeoTV. <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Subscribe today</Link>, explore our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup tutorials</Link>, and start streaming.
+            Experience buffer-free 4K IPTV with IPTV Map. <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">Choose your subscription plan</Link>, follow our step-by-step <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup tutorials</Link>, and start streaming in minutes.
           </>
         }
       />

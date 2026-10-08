@@ -7,8 +7,8 @@ import { Trophy, Film, Globe, CheckCircle2, ArrowRight } from 'lucide-react';
 import { siteConfig } from '@/data/siteConfig';
 
 export const metadata = {
-  title: 'VixeoTV — Live Channels & 4K VOD Lineup | Global Sports & TV',
-  description: 'Browse the complete VixeoTV IPTV channel lineup. Watch live global sports, premier US, UK, European & Arabic networks, and thousands of 4K VOD movies with EPG.',
+  title: 'IPTV Map — 50,000+ Live Channels & 200,000+ 4K VOD Lineup | Global TV & Sports',
+  description: 'Browse the complete IPTV Map channel list. Watch over 50,000 live global channels, sports, USA, UK, Canada, Europe & international feeds, plus 200,000+ 4K VOD titles with dynamic EPG.',
   alternates: {
     canonical: `${siteConfig.domain}/channels`,
   },
@@ -41,10 +41,10 @@ export default function ChannelsPage() {
       <JsonLd data={breadcrumbSchema} />
 
       <PageHeader
-        badge="Global IPTV Channels &amp; On-Demand Library"
-        title="Explore the Complete VixeoTV IPTV Channel Lineup &amp;"
-        titleAccent="4K VOD Library"
-        description="Stream major international sports events, news, blockbuster movies, and regional television networks in crystal-clear Full HD and 4K quality with dynamic EPG guides on VixeoTV IPTV."
+        badge="IPTV MAP CHANNEL DIRECTORY"
+        title="50,000+ Live IPTV Channels &amp; 200,000+ VOD Movies with"
+        titleAccent="IPTV Map"
+        description="Experience premier international sports in 60FPS, major national networks from the US, UK, Canada, and Europe, plus over 200,000 4K on-demand movies and series. Full interactive 7-day EPG included with every IPTV Map subscription."
         breadcrumbs={breadcrumbs}
       />
 
@@ -57,9 +57,9 @@ export default function ChannelsPage() {
             <div className="p-6 rounded-2xl bg-brand-bg border border-white/5 flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
               <div>
-                <h4 className="text-sm font-bold text-white font-heading">60 FPS Live Sports IPTV Streams</h4>
+                <h4 className="text-sm font-bold text-white font-heading">Native 60FPS Live Sports IPTV Broadcasts</h4>
                 <p className="text-xs text-brand-text-muted mt-1 leading-relaxed">
-                  Enjoy smooth action and high refresh rates on major football, motorsport, tennis, and basketball feeds without jitter on any <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plan</Link>.
+                  Experience high refresh-rate stadium feeds for football, motorsports, basketball, and combat championships with zero stutter on your <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">IPTV subscription plan</Link>.
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function ChannelsPage() {
               <div>
                 <h4 className="text-sm font-bold text-white font-heading">Multi-Language Audio &amp; Subtitles</h4>
                 <p className="text-xs text-brand-text-muted mt-1 leading-relaxed">
-                  Easily switch between original commentary and multi-language audio or subtitle tracks on supported VixeoTV channels and <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">VOD streaming titles</Link>.
+                  Switch commentary languages and toggle subtitle tracks seamlessly on supported live sports feeds and <Link href="/features" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">4K VOD movie titles</Link>.
                 </p>
               </div>
             </div>
@@ -77,9 +77,9 @@ export default function ChannelsPage() {
             <div className="p-6 rounded-2xl bg-brand-bg border border-white/5 flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" />
               <div>
-                <h4 className="text-sm font-bold text-white font-heading">Automatic IPTV EPG Synchronization</h4>
+                <h4 className="text-sm font-bold text-white font-heading">Interactive 7-Day IPTV EPG TV Guide</h4>
                 <p className="text-xs text-brand-text-muted mt-1 leading-relaxed">
-                  Interactive 7-day electronic program guide schedules update automatically every 24 hours via Xtream Codes API and M3U links. Learn how to configure your player in our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">setup guides</Link>.
+                  Stay ahead of kickoff times with live broadcast schedules updated automatically every 24 hours via Xtream Codes API. Follow our <Link href="/setup" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">device setup guides</Link> to calibrate your EPG.
                 </p>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function ChannelsPage() {
       </section>
 
       <CTASection
-        title="Get Full Access to the VixeoTV IPTV Lineup"
+        title="Get Full Access to the IPTV Map Channel Lineup"
         subtitle={
           <>
             Select your preferred <Link href="/pricing" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">subscription duration</Link> and start enjoying high-definition live channels and 4K cinema across all your <Link href="/devices" className="text-white hover:text-brand-primary underline decoration-brand-primary/40 underline-offset-2 transition-colors">connected devices</Link>.
